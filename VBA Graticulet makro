@@ -1,0 +1,165 @@
+Option Explicit
+Dim lastPQ As Long
+Dim lastG As Long
+Dim i As Long
+Dim j As Integer
+Dim ilmoita As Long
+Dim latD As String
+Dim lonD As String
+Dim A As Range
+Dim B As Range
+Dim latbefore As Range
+Dim corrected As Boolean
+Dim GC As String
+Dim graticule As Range
+Dim maa As Range
+Dim country As String
+Dim found As Integer
+
+Sub Graticulet()
+Call clean
+lastPQ = Worksheets("All Finds PQ").Range("A" & Rows.Count).End(xlUp).Row
+Set A = Range(Worksheets("All Finds PQ").Cells(1, 1), Worksheets("All Finds PQ").Cells(lastPQ, 1)).Find("<?xml version")
+If Not A Is Nothing Then
+For i = 1 To lastPQ
+Worksheets("All Finds PQ").Range("Q1").Value = i & "/" & lastPQ
+Call etsi
+Next i
+End If
+
+
+Call taulu
+Call viherrys
+End Sub
+
+Sub clean()
+Worksheets("All Finds PQ").Range("A:A").Interior.ColorIndex = 0
+Worksheets("All Finds PQ").Range("B:Z").Value = ""
+Worksheets("All Finds PQ").Range("M1").Value = "GC muut"
+Worksheets("All Finds PQ").Range("N1").Value = "Graticule muut"
+Worksheets("All Finds PQ").Range("O1").Value = "Maa"
+Worksheets("All Finds PQ").Range("J1").Value = "GC"
+Worksheets("All Finds PQ").Range("K1").Value = "Graticule FI"
+Worksheets("All Finds PQ").Range("Q2").Value = "Odota..."
+Worksheets("Graticuletaulu").Range("A:B").ClearContents
+Application.Wait (Now + 0.000000001)
+End Sub
+
+Sub pastegpx()
+Worksheets("All Finds PQ").Columns("A:Z").Interior.ColorIndex = 0
+Worksheets("All Finds PQ").Columns("A:Z").Value = ""
+ActiveSheet.Range("A6").Select
+ActiveSheet.paste
+End Sub
+
+'#####################'
+Sub etsi()
+Set A = Range(Worksheets("All Finds PQ").Cells(A.Row + 1, 1), Worksheets("All Finds PQ").Cells(lastPQ, 1)).Find("<wpt")
+If Not A Is Nothing Then
+    i = A.Row
+    GC = Replace(Replace(Replace(Worksheets("All Finds PQ").Cells(A.Row + 2, 1).Value, "<name>", ""), "</name>", ""), " ", "")
+    If InStr(1, GC, "GC") <> 1 Then
+    Exit Sub
+    End If
+    Set B = Range(Worksheets("All Finds PQ").Cells(A.Row, 1), Worksheets("All Finds PQ").Cells(lastPQ, 1)).Find("</wpt>")
+    Set maa = Worksheets("All Finds PQ").Range(Cells(A.Row, 1), Cells(B.Row, 1)).Find("<groundspeak:country>")
+    country = Replace(Replace(Replace(Cells(maa.Row, maa.Column), "   <groundspeak:country>", ""), "</groundspeak:country>", ""), " ", "")
+Else
+    i = lastPQ
+    Worksheets("All Finds PQ").Range("Q1").Value = i & "/" & lastPQ
+    Exit Sub
+End If
+
+If Worksheets("All Finds PQ").Cells(A.Row - 1, 1).Interior.Color <> RGB(146, 208, 80) Then
+Range(Worksheets("All Finds PQ").Cells(A.Row, 1), Worksheets("All Finds PQ").Cells(B.Row, 1)).Interior.Color = RGB(146, 208, 80)
+Else
+Range(Worksheets("All Finds PQ").Cells(A.Row, 1), Worksheets("All Finds PQ").Cells(B.Row, 1)).Interior.Color = RGB(87, 128, 201)
+End If
+
+Set latbefore = Range(Worksheets("All Finds PQ").Cells(A.Row, 1), Worksheets("All Finds PQ").Cells(B.Row, 1)).Find("<gsak:LatBeforeCorrect>")
+If Not latbefore Is Nothing Then
+corrected = True
+Else
+corrected = False
+End If
+
+If corrected = True Then
+    If InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, ".") > 0 Then
+    latD = "N" & Mid(Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, "LatBeforeCorrect>") + 17, InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, ".") - InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, "<gsak:LatBeforeCorrect>") - 23)
+    Else
+    latD = "N" & Mid(Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, "LatBeforeCorrect>") + 17, InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, "</gsak:LatBeforeCorrect>") - InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row, 1).Value, "<gsak:LatBeforeCorrect>") - 23)
+    End If
+    latD = Replace(latD, "N-", "S")
+    
+    If InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, ".") > 0 Then
+    lonD = "E" & Mid(Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, "LonBeforeCorrect>") + 17, InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, ".") - InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, "<gsak:LonBeforeCorrect>") - 23)
+    Else
+    lonD = "E" & Mid(Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, "LonBeforeCorrect>") + 17, InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, "</gsak:LonBeforeCorrect>") - InStr(1, Worksheets("All Finds PQ").Cells(latbefore.Row + 1, 1).Value, "<gsak:LonBeforeCorrect>") - 23)
+    End If
+    lonD = Replace(lonD, "E-", "W")
+Else
+    If InStr(1, Mid(Worksheets("All Finds PQ").Cells(A.Row, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, "<wpt lat=""") + 10, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """ lon=""") - InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, "<wpt lat=""") - 10), ".") > 0 Then
+    latD = "N" & Mid(Worksheets("All Finds PQ").Cells(A.Row, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, "<wpt lat=""") + 10, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, ".") - InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, "<wpt lat=""") - 10)
+    Else
+    latD = "N" & Mid(Worksheets("All Finds PQ").Cells(A.Row, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, "<wpt lat=""") + 10, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """ lon=""") - InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, "<wpt lat=""") - 10)
+    End If
+    latD = Replace(latD, "N-", "S")
+    
+    If InStr(1, Mid(Worksheets("All Finds PQ").Cells(A.Row, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """ lon=""") + 7), ".") > 0 Then
+    lonD = "E" & Mid(Worksheets("All Finds PQ").Cells(A.Row, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """ lon=""") + 7, InStr(InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """ lon="""), Worksheets("All Finds PQ").Cells(A.Row, 1).Value, ".") - InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """ lon=""") - 7)
+    Else
+    lonD = "E" & Mid(Worksheets("All Finds PQ").Cells(A.Row, 1).Value, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """ lon=""") + 7, InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """>") - InStr(1, Worksheets("All Finds PQ").Cells(A.Row, 1).Value, """ lon=""") - 7)
+    End If
+    lonD = Replace(lonD, "E-", "W")
+End If
+
+
+If country = "Finland" And GC <> "GCGW7N" And GC <> "GCC5EE" Then
+    ilmoita = Worksheets("All Finds PQ").Range("J" & Rows.Count).End(xlUp).Row + 1
+    Worksheets("All Finds PQ").Range("J" & ilmoita).Value = GC
+    Worksheets("All Finds PQ").Range("K" & ilmoita).Value = latD & lonD
+
+Else
+ilmoita = Worksheets("All Finds PQ").Range("M" & Rows.Count).End(xlUp).Row + 1
+Worksheets("All Finds PQ").Range("M" & ilmoita).Value = GC
+Worksheets("All Finds PQ").Range("N" & ilmoita).Value = latD & lonD
+Worksheets("All Finds PQ").Range("O" & ilmoita).Value = country
+End If
+End Sub
+
+
+Sub taulu()
+For i = 2 To 13
+    For j = 3 To 15
+    If Worksheets("Graticuletaulu").Range(Chr(Asc("A") + j) & i).Interior.ColorIndex <> 15 Then
+    Worksheets("Graticuletaulu").Range(Chr(Asc("A") + j) & i).Formula = "=COUNTIF('All Finds PQ'!K:K," & """N" & 72 - i & "E" & 16 + j & """" & ")"
+    End If
+    Next j
+Next i
+End Sub
+
+
+Sub viherrys()
+Worksheets("Graticuletaulu").Range("A:B").ClearContents
+For i = 2 To 13
+    For j = 4 To 16
+    If Worksheets("Graticuletaulu").Cells(i, j).Interior.ColorIndex <> 15 Then
+    Dim grat As String
+    grat = "N" & 72 - i & "E" & 15 + j
+    Set graticule = Worksheets("Graticulet").Range("D:D").Find(grat)
+    Worksheets("Graticulet").Cells(graticule.Row + 1, 4).Value = "<description><![CDATA[" & Worksheets("Graticuletaulu").Cells(i, j).Value & "]]></description>"
+        If Worksheets("Graticuletaulu").Cells(i, j).Value <> 0 Then
+        Worksheets("Graticulet").Cells(graticule.Row + 2, 4).Value = "<styleUrl>#poly-00D079-1-59</styleUrl>"
+        Else
+        Worksheets("Graticulet").Cells(graticule.Row + 2, 4).Value = "<styleUrl>#poly-DB4436-1-64</styleUrl>"
+        End If
+    End If
+    Next j
+Next i
+found = WorksheetFunction.CountIf(Worksheets("Graticuletaulu").Range("D2:P13"), "<>0") - WorksheetFunction.CountBlank(Worksheets("Graticuletaulu").Range("D2:P13"))
+Worksheets("All Finds PQ").Range("Q2").Value = "Valmis! Löydetty " & found & "/" & 97 & "  =" & Round(found / 97 * 100, 2) & "%"
+Worksheets("Graticuletaulu").Range("A8").Value = "Valmis!"
+Worksheets("Graticuletaulu").Range("A9").Value = "Löydetty " & found & "/" & 97 & "  =" & Round(found / 97 * 100, 2) & "%"
+Worksheets("Graticulet").Range("A1:G39833").Copy
+MsgBox "OK! Graticule.kml kopioitu leikepöydälle. Löydetty " & found & "/" & 97
+End Sub

@@ -1,0 +1,122 @@
+Option Explicit
+
+Dim lastPQ As Long
+Dim lastWP As Long
+Dim i As Long
+Dim x As Range
+Dim lat As String
+Dim lon As String
+Dim GC As String
+Dim nimi As String
+Dim desc As String
+Dim size As String
+Dim kpl As Long
+Dim cachetype As String
+Dim A As Long
+Dim B As Long
+Dim hint As String
+
+Sub tyhj()
+If InStr(1, Worksheets("Reittipisteet").Range("C5").Value, "<Style id='") = 0 Then
+Set x = Worksheets("Reittipisteet").Range("C:C").Find("<Style id='")
+Worksheets("Reittipisteet").Rows("5:" & x.Row - 1).Delete Shift:=xlUp
+End If
+End Sub
+
+Sub Waypoints()
+Worksheets("PocketQ").Range("K1:L1").Value = ""
+kpl = 0
+
+Call tyhj
+
+Set x = Range("A1")
+lastPQ = Worksheets("PocketQ").Range("A" & Rows.Count).End(xlUp).Row
+
+For i = 1 To lastPQ
+Worksheets("PocketQ").Range("K1").Value = "'" & i & "/" & lastPQ
+Set x = Worksheets("PocketQ").Range(Worksheets("PocketQ").Cells(x.Row + 1, 1), Worksheets("PocketQ").Cells(lastPQ, 1)).Find("<wpt lat=""")
+If Not x Is Nothing Then
+    
+    i = x.Row
+    kpl = kpl + 1
+    Worksheets("PocketQ").Range("L1").Value = kpl
+    
+    
+    Do Until InStr(1, Worksheets("PocketQ").Cells(i, 1).Value, "<groundspeak:encoded_hints>") > 0
+    i = i + 1
+    Loop
+    A = i
+    Do Until InStr(1, Worksheets("PocketQ").Cells(i, 1).Value, "</groundspeak:encoded_hints>") > 0
+    i = i + 1
+    Loop
+    B = i
+    
+
+    
+    
+    lat = Mid(Worksheets("PocketQ").Cells(x.Row, 1).Value, InStr(1, Worksheets("PocketQ").Cells(x.Row, 1).Value, "<wpt lat=""") + 10, InStr(1, Worksheets("PocketQ").Cells(x.Row, 1).Value, """ lon=""") - InStr(1, Worksheets("PocketQ").Cells(x.Row, 1).Value, "<wpt lat=""") - 10)
+    lon = Mid(Worksheets("PocketQ").Cells(x.Row, 1).Value, InStr(1, Worksheets("PocketQ").Cells(x.Row, 1).Value, """ lon=""") + 7, InStr(1, Worksheets("PocketQ").Cells(x.Row, 1).Value, """>") - InStr(1, Worksheets("PocketQ").Cells(x.Row, 1).Value, """ lon=""") - 7)
+    GC = Mid(Worksheets("PocketQ").Cells(x.Row + 2, 1).Value, InStr(1, Worksheets("PocketQ").Cells(x.Row + 2, 1).Value, "<name>") + 6, InStr(1, Worksheets("PocketQ").Cells(x.Row + 2, 1).Value, "</name>") - InStr(1, Worksheets("PocketQ").Cells(x.Row + 2, 1).Value, "<name>") - 6)
+    nimi = Mid(Worksheets("PocketQ").Cells(x.Row + 5, 1).Value, InStr(1, Worksheets("PocketQ").Cells(x.Row + 5, 1).Value, "<urlname>") + 9, InStr(1, Worksheets("PocketQ").Cells(x.Row + 5, 1).Value, "</urlname>") - InStr(1, Worksheets("PocketQ").Cells(x.Row + 5, 1).Value, "<urlname>") - 9)
+    desc = Replace(Mid(Worksheets("PocketQ").Cells(x.Row + 3, 1).Value, InStr(1, Worksheets("PocketQ").Cells(x.Row + 3, 1).Value, "<desc>") + 6, InStr(1, Worksheets("PocketQ").Cells(x.Row + 3, 1).Value, "</desc>") - InStr(1, Worksheets("PocketQ").Cells(x.Row + 3, 1).Value, "<desc>") - 6), "&amp;", "&")
+    size = Mid(Worksheets("PocketQ").Cells(x.Row + 13, 1).Value, InStr(1, Worksheets("PocketQ").Cells(x.Row + 13, 1).Value, "<groundspeak:container>") + 23, InStr(1, Worksheets("PocketQ").Cells(x.Row + 13, 1).Value, "</groundspeak:container>") - InStr(1, Worksheets("PocketQ").Cells(x.Row + 13, 1).Value, "<groundspeak:container>") - 23)
+    cachetype = Replace(Mid(Worksheets("PocketQ").Cells(x.Row + 7, 1).Value, InStr(1, Worksheets("PocketQ").Cells(x.Row + 7, 1).Value, "<type>Geocache|") + 15), "</type>", "")
+    
+    hint = ""
+    For A = A To B
+    hint = hint & " " & Replace(Replace(Worksheets("PocketQ").Cells(A, 1).Value, "      <groundspeak:encoded_hints>", ""), "</groundspeak:encoded_hints>", "")
+    Next A
+    Do Until InStr(1, hint, " ") <> 1
+    hint = Mid(hint, 2)
+    Loop
+    If hint = "" Then
+    hint = "Ei vihjettä"
+    End If
+    
+
+    
+    Worksheets("Reittipisteet").Rows("5:12").Insert Shift:=xlDown
+    Worksheets("Reittipisteet").Cells(5, 3).Value = "<Placemark>"
+    Worksheets("Reittipisteet").Cells(6, 3).Value = "<description><![CDATA[" & "<a href=""https://coord.info/" & GC & """>" & GC & "</a>" & "<br>" & desc & " " & size & "   Vihje: " & hint & "]]></description>"
+    Worksheets("Reittipisteet").Cells(7, 4).Value = "<name>" & nimi & "</name>"
+        If cachetype = "Traditional Cache" Then
+        Worksheets("Reittipisteet").Cells(8, 4).Value = "<styleUrl>#icon-1899-0F9D58</styleUrl>"
+        ElseIf cachetype = "Multi-cache" Then
+        Worksheets("Reittipisteet").Cells(8, 4).Value = "<styleUrl>#icon-1899-F57C00</styleUrl>"
+        ElseIf cachetype = "Unknown Cache" Then
+        Worksheets("Reittipisteet").Cells(8, 4).Value = "<styleUrl>#icon-1594-1A237E</styleUrl>"
+        ElseIf cachetype = "Letterbox Hybrid" Then
+        Worksheets("Reittipisteet").Cells(8, 4).Value = "<styleUrl>#icon-1899-C2185B</styleUrl>"
+        ElseIf cachetype = "Wherigo Cache" Then
+        Worksheets("Reittipisteet").Cells(8, 4).Value = "<styleUrl>#icon-1899-9C27B0</styleUrl>"
+        ElseIf cachetype = "Earthcache" Then
+        Worksheets("Reittipisteet").Cells(8, 4).Value = "<styleUrl>#icon-1899-757575</styleUrl>"
+        ElseIf cachetype = "Event Cache" Or cachetype = "Cache In Trash Out Event" Then
+        Worksheets("Reittipisteet").Cells(8, 4).Value = "<styleUrl>#icon-1625-4E342E</styleUrl>"
+        Else
+        Worksheets("Reittipisteet").Cells(8, 4).Value = "<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>"
+        End If
+    Worksheets("Reittipisteet").Cells(9, 4).Value = "<Point>"
+    Worksheets("Reittipisteet").Cells(10, 5).Value = "<coordinates>" & lon & "," & lat & ",0.0</coordinates>"
+    Worksheets("Reittipisteet").Cells(11, 4).Value = "</Point>"
+    Worksheets("Reittipisteet").Cells(12, 3).Value = "</Placemark>"
+Else
+i = lastPQ
+End If
+
+Next i
+
+
+
+Worksheets("PocketQ").Range("L1").Value = "Valmis! " & kpl & "kpl"
+Set x = Worksheets("Reittipisteet").Range("A:A").Find("</kml>")
+Worksheets("Reittipisteet").Range("A1:H" & x.Row).Copy
+MsgBox "OK! Reittipisteet.kml kopioitu leikepöydälle. " & kpl & "kpl"
+End Sub
+
+Sub pastePQ()
+Worksheets("PocketQ").Columns("A:Z").Value = ""
+Range("A6").Select
+    ActiveSheet.PasteSpecial Format:="Text", Link:=False, DisplayAsIcon:= _
+        False
+End Sub
