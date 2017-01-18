@@ -14,7 +14,17 @@ Suomen kuntarajat, graticulet ja reittipisteet - Geocaching kml map
 Tältä GitHub-tililtä löydät Geokml.xlsm -tiedoston käyttöohjeineen.
 Oman kuntakartan tekemiseen tarvitset Microsoft Excelin ja Google-tilin kartan tallentamista varten.
 
+######################################################
+<b>PÄIVITYS 18.01.2017</b>
+Nyt kuntakartan väritys onnistuu myös ilman Exceliä.
 
-Tarvittaessa [ota yhteyttä](https://www.geocaching.com/email/?guid=d30ee7cc-018f-4e64-a4b1-06c4011e4f63)
+Lataa [Kuntarajat.py](https://github.com/geoharo/Geokml/blob/master/Kuntarajat.py). Asenna [Python](https://www.python.org/downloads/), liitä tekstieditorilla muokaten oma löytötaulukko paikkakunnittain, tallenna muutokset ja aja tiedosto. Scripti luo samaan polkuun valmiin Kuntarajat.kml -tiedoston.
+
+Vaihtoehtoisesti voit [ajaa scriptin nettiselaimessa](https://repl.it/languages/python3) ilman mitään asennuksia, mutta joudut kopioimaan outputin käsin ja kml-tiedoston luominen täytyy tehdä manuaalisesti.
+#######################################################
+
+
+
+Tarvittaessa [ota yhteyttä!](https://www.geocaching.com/email/?guid=d30ee7cc-018f-4e64-a4b1-06c4011e4f63)
 
 -geohärö
