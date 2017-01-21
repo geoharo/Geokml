@@ -23,7 +23,7 @@ Lataa [Kuntarajat.py](https://github.com/geoharo/Geokml/blob/master/Kuntarajat.p
 Vaihtoehtoisesti voit [ajaa scriptin nettiselaimessa](https://repl.it/FNVg/0) ilman mitään asennuksia, mutta joudut kopioimaan outputin käsin ja kml-tiedoston luominen täytyy tehdä manuaalisesti.
 #######################################################
 
-
+Perustuu Maanmittauslaitoksen aineistoon.
 
 Tarvittaessa [ota yhteyttä!](https://www.geocaching.com/email/?guid=d30ee7cc-018f-4e64-a4b1-06c4011e4f63)
 

@@ -1,20 +1,10 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
-import os, sys
-
-
-rawgeocachefi = """[LIITÃ„ LÃ–YTÃ–TAULUKKO PAIKKAKUNNITTAIN TÃ„HÃ„N]"""
-kuntia = str('311')
-
-
-###################################################################################
-kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>							
+<?xml version='1.0' encoding='UTF-8'?>							
 <kml xmlns='http://www.opengis.net/kml/2.2'>							
 	<Document>						
 		<name>Kuntarajat 2017</name>					
 		<Placemark>					
 			<name>Nousiainen</name>				
-			<description><![CDATA[#Nousiainen]]></description>				
+			<description><![CDATA[#Nousiainen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26,8 +16,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>OripÃ¤Ã¤</name>				
-			<description><![CDATA[#OripÃ¤Ã¤]]></description>				
+			<name>Oripää</name>				
+			<description><![CDATA[#Oripää#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -40,7 +30,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Espoo</name>				
-			<description><![CDATA[#Espoo]]></description>				
+			<description><![CDATA[#Espoo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -311,7 +301,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Tuusula</name>				
-			<description><![CDATA[#Tuusula]]></description>				
+			<description><![CDATA[#Tuusula#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -324,7 +314,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lumparland</name>				
-			<description><![CDATA[#Lumparland]]></description>				
+			<description><![CDATA[#Lumparland#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -411,7 +401,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hanko</name>				
-			<description><![CDATA[#Hanko]]></description>				
+			<description><![CDATA[#Hanko#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -882,7 +872,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Rovaniemi</name>				
-			<description><![CDATA[#Rovaniemi]]></description>				
+			<description><![CDATA[#Rovaniemi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -895,7 +885,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Geta</name>				
-			<description><![CDATA[#Geta]]></description>				
+			<description><![CDATA[#Geta#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -1101,8 +1091,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>RÃ¤Ã¤kkylÃ¤</name>				
-			<description><![CDATA[#RÃ¤Ã¤kkylÃ¤]]></description>				
+			<name>Rääkkylä</name>				
+			<description><![CDATA[#Rääkkylä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1114,8 +1104,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>JÃ¤msÃ¤</name>				
-			<description><![CDATA[#JÃ¤msÃ¤]]></description>				
+			<name>Jämsä</name>				
+			<description><![CDATA[#Jämsä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1128,7 +1118,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pornainen</name>				
-			<description><![CDATA[#Pornainen]]></description>				
+			<description><![CDATA[#Pornainen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1140,8 +1130,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>VieremÃ¤</name>				
-			<description><![CDATA[#VieremÃ¤]]></description>				
+			<name>Vieremä</name>				
+			<description><![CDATA[#Vieremä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1154,7 +1144,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kouvola</name>				
-			<description><![CDATA[#Kouvola]]></description>				
+			<description><![CDATA[#Kouvola#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1167,7 +1157,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Naantali</name>				
-			<description><![CDATA[#Naantali]]></description>				
+			<description><![CDATA[#Naantali#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -2046,7 +2036,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Tuusniemi</name>				
-			<description><![CDATA[#Tuusniemi]]></description>				
+			<description><![CDATA[#Tuusniemi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -2059,7 +2049,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kokkola</name>				
-			<description><![CDATA[#Kokkola]]></description>				
+			<description><![CDATA[#Kokkola#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -2409,8 +2399,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>VÃ¥rdÃ¶</name>				
-			<description><![CDATA[#VÃ¥rdÃ¶]]></description>				
+			<name>Vårdö</name>				
+			<description><![CDATA[#Vårdö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -3553,7 +3543,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Vantaa</name>				
-			<description><![CDATA[#Vantaa]]></description>				
+			<description><![CDATA[#Vantaa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -3566,7 +3556,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Viitasaari</name>				
-			<description><![CDATA[#Viitasaari]]></description>				
+			<description><![CDATA[#Viitasaari#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -3579,7 +3569,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pomarkku</name>				
-			<description><![CDATA[#Pomarkku]]></description>				
+			<description><![CDATA[#Pomarkku#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -3592,7 +3582,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lemland</name>				
-			<description><![CDATA[#Lemland]]></description>				
+			<description><![CDATA[#Lemland#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -4111,7 +4101,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Harjavalta</name>				
-			<description><![CDATA[#Harjavalta]]></description>				
+			<description><![CDATA[#Harjavalta#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4124,7 +4114,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hartola</name>				
-			<description><![CDATA[#Hartola]]></description>				
+			<description><![CDATA[#Hartola#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4137,7 +4127,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Punkalaidun</name>				
-			<description><![CDATA[#Punkalaidun]]></description>				
+			<description><![CDATA[#Punkalaidun#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4150,7 +4140,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Juupajoki</name>				
-			<description><![CDATA[#Juupajoki]]></description>				
+			<description><![CDATA[#Juupajoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4163,7 +4153,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lappeenranta</name>				
-			<description><![CDATA[#Lappeenranta]]></description>				
+			<description><![CDATA[#Lappeenranta#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4175,8 +4165,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>JÃ¤rvenpÃ¤Ã¤</name>				
-			<description><![CDATA[#JÃ¤rvenpÃ¤Ã¤]]></description>				
+			<name>Järvenpää</name>				
+			<description><![CDATA[#Järvenpää#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4189,7 +4179,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Laukaa</name>				
-			<description><![CDATA[#Laukaa]]></description>				
+			<description><![CDATA[#Laukaa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4202,7 +4192,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Eura</name>				
-			<description><![CDATA[#Eura]]></description>				
+			<description><![CDATA[#Eura#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4215,7 +4205,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Keitele</name>				
-			<description><![CDATA[#Keitele]]></description>				
+			<description><![CDATA[#Keitele#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4228,7 +4218,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Inkoo</name>				
-			<description><![CDATA[#Inkoo]]></description>				
+			<description><![CDATA[#Inkoo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -4899,7 +4889,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Raasepori</name>				
-			<description><![CDATA[#Raasepori]]></description>				
+			<description><![CDATA[#Raasepori#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -6250,7 +6240,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kangasala</name>				
-			<description><![CDATA[#Kangasala]]></description>				
+			<description><![CDATA[#Kangasala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6263,7 +6253,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hankasalmi</name>				
-			<description><![CDATA[#Hankasalmi]]></description>				
+			<description><![CDATA[#Hankasalmi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6276,7 +6266,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Karkkila</name>				
-			<description><![CDATA[#Karkkila]]></description>				
+			<description><![CDATA[#Karkkila#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6289,7 +6279,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hamina</name>				
-			<description><![CDATA[#Hamina]]></description>				
+			<description><![CDATA[#Hamina#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -6903,8 +6893,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>MynÃ¤mÃ¤ki</name>				
-			<description><![CDATA[#MynÃ¤mÃ¤ki]]></description>				
+			<name>Mynämäki</name>				
+			<description><![CDATA[#Mynämäki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6917,7 +6907,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hailuoto</name>				
-			<description><![CDATA[#Hailuoto]]></description>				
+			<description><![CDATA[#Hailuoto#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6929,8 +6919,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>LappajÃ¤rvi</name>				
-			<description><![CDATA[#LappajÃ¤rvi]]></description>				
+			<name>Lappajärvi</name>				
+			<description><![CDATA[#Lappajärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6943,7 +6933,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Posio</name>				
-			<description><![CDATA[#Posio]]></description>				
+			<description><![CDATA[#Posio#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6956,7 +6946,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Keuruu</name>				
-			<description><![CDATA[#Keuruu]]></description>				
+			<description><![CDATA[#Keuruu#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6969,7 +6959,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Askola</name>				
-			<description><![CDATA[#Askola]]></description>				
+			<description><![CDATA[#Askola#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6982,7 +6972,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Salo</name>				
-			<description><![CDATA[#Salo]]></description>				
+			<description><![CDATA[#Salo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -7164,8 +7154,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>PyhÃ¤ntÃ¤</name>				
-			<description><![CDATA[#PyhÃ¤ntÃ¤]]></description>				
+			<name>Pyhäntä</name>				
+			<description><![CDATA[#Pyhäntä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7178,7 +7168,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Koski Tl</name>				
-			<description><![CDATA[#Koski Tl]]></description>				
+			<description><![CDATA[#Koski Tl#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7191,7 +7181,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pelkosenniemi</name>				
-			<description><![CDATA[#Pelkosenniemi]]></description>				
+			<description><![CDATA[#Pelkosenniemi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7204,7 +7194,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kemi</name>				
-			<description><![CDATA[#Kemi]]></description>				
+			<description><![CDATA[#Kemi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -7315,7 +7305,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Nivala</name>				
-			<description><![CDATA[#Nivala]]></description>				
+			<description><![CDATA[#Nivala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7327,8 +7317,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PÃ¶ytyÃ¤</name>				
-			<description><![CDATA[#PÃ¶ytyÃ¤]]></description>				
+			<name>Pöytyä</name>				
+			<description><![CDATA[#Pöytyä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7341,7 +7331,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Uusikaarlepyy</name>				
-			<description><![CDATA[#Uusikaarlepyy]]></description>				
+			<description><![CDATA[#Uusikaarlepyy#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -7732,7 +7722,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kerava</name>				
-			<description><![CDATA[#Kerava]]></description>				
+			<description><![CDATA[#Kerava#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7745,7 +7735,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Iisalmi</name>				
-			<description><![CDATA[#Iisalmi]]></description>				
+			<description><![CDATA[#Iisalmi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7757,8 +7747,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>HaapajÃ¤rvi</name>				
-			<description><![CDATA[#HaapajÃ¤rvi]]></description>				
+			<name>Haapajärvi</name>				
+			<description><![CDATA[#Haapajärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7770,8 +7760,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>LeppÃ¤virta</name>				
-			<description><![CDATA[#LeppÃ¤virta]]></description>				
+			<name>Leppävirta</name>				
+			<description><![CDATA[#Leppävirta#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7783,8 +7773,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>HyvinkÃ¤Ã¤</name>				
-			<description><![CDATA[#HyvinkÃ¤Ã¤]]></description>				
+			<name>Hyvinkää</name>				
+			<description><![CDATA[#Hyvinkää#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7797,7 +7787,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Sastamala</name>				
-			<description><![CDATA[#Sastamala]]></description>				
+			<description><![CDATA[#Sastamala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7810,7 +7800,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Siikalatva</name>				
-			<description><![CDATA[#Siikalatva]]></description>				
+			<description><![CDATA[#Siikalatva#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7823,7 +7813,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Iitti</name>				
-			<description><![CDATA[#Iitti]]></description>				
+			<description><![CDATA[#Iitti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7836,7 +7826,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ikaalinen</name>				
-			<description><![CDATA[#Ikaalinen]]></description>				
+			<description><![CDATA[#Ikaalinen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7848,8 +7838,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>MerijÃ¤rvi</name>				
-			<description><![CDATA[#MerijÃ¤rvi]]></description>				
+			<name>Merijärvi</name>				
+			<description><![CDATA[#Merijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7862,7 +7852,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Mikkeli</name>				
-			<description><![CDATA[#Mikkeli]]></description>				
+			<description><![CDATA[#Mikkeli#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7875,7 +7865,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pielavesi</name>				
-			<description><![CDATA[#Pielavesi]]></description>				
+			<description><![CDATA[#Pielavesi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7888,7 +7878,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Vaasa</name>				
-			<description><![CDATA[#Vaasa]]></description>				
+			<description><![CDATA[#Vaasa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -8287,7 +8277,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Alavieska</name>				
-			<description><![CDATA[#Alavieska]]></description>				
+			<description><![CDATA[#Alavieska#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8299,8 +8289,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PieksÃ¤mÃ¤ki</name>				
-			<description><![CDATA[#PieksÃ¤mÃ¤ki]]></description>				
+			<name>Pieksämäki</name>				
+			<description><![CDATA[#Pieksämäki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8313,7 +8303,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Maarianhamina</name>				
-			<description><![CDATA[#Maarianhamina]]></description>				
+			<description><![CDATA[#Maarianhamina#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -8344,7 +8334,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kuhmoinen</name>				
-			<description><![CDATA[#Kuhmoinen]]></description>				
+			<description><![CDATA[#Kuhmoinen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8357,7 +8347,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kannonkoski</name>				
-			<description><![CDATA[#Kannonkoski]]></description>				
+			<description><![CDATA[#Kannonkoski#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8369,8 +8359,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PÃ¤lkÃ¤ne</name>				
-			<description><![CDATA[#PÃ¤lkÃ¤ne]]></description>				
+			<name>Pälkäne</name>				
+			<description><![CDATA[#Pälkäne#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8383,7 +8373,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kaskinen</name>				
-			<description><![CDATA[#Kaskinen]]></description>				
+			<description><![CDATA[#Kaskinen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -8414,7 +8404,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Porvoo</name>				
-			<description><![CDATA[#Porvoo]]></description>				
+			<description><![CDATA[#Porvoo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -9213,7 +9203,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lumijoki</name>				
-			<description><![CDATA[#Lumijoki]]></description>				
+			<description><![CDATA[#Lumijoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -9226,7 +9216,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Simo</name>				
-			<description><![CDATA[#Simo]]></description>				
+			<description><![CDATA[#Simo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -9321,7 +9311,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kumlinge</name>				
-			<description><![CDATA[#Kumlinge]]></description>				
+			<description><![CDATA[#Kumlinge#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -10392,7 +10382,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Saltvik</name>				
-			<description><![CDATA[#Saltvik]]></description>				
+			<description><![CDATA[#Saltvik#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -10919,7 +10909,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Turku</name>				
-			<description><![CDATA[#Turku]]></description>				
+			<description><![CDATA[#Turku#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -11030,7 +11020,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pertunmaa</name>				
-			<description><![CDATA[#Pertunmaa]]></description>				
+			<description><![CDATA[#Pertunmaa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11043,7 +11033,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kangasniemi</name>				
-			<description><![CDATA[#Kangasniemi]]></description>				
+			<description><![CDATA[#Kangasniemi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11056,7 +11046,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Joutsa</name>				
-			<description><![CDATA[#Joutsa]]></description>				
+			<description><![CDATA[#Joutsa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11069,7 +11059,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kruunupyy</name>				
-			<description><![CDATA[#Kruunupyy]]></description>				
+			<description><![CDATA[#Kruunupyy#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -11100,7 +11090,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kauhava</name>				
-			<description><![CDATA[#Kauhava]]></description>				
+			<description><![CDATA[#Kauhava#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11113,7 +11103,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ilmajoki</name>				
-			<description><![CDATA[#Ilmajoki]]></description>				
+			<description><![CDATA[#Ilmajoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11126,7 +11116,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kempele</name>				
-			<description><![CDATA[#Kempele]]></description>				
+			<description><![CDATA[#Kempele#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11138,8 +11128,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>MiehikkÃ¤lÃ¤</name>				
-			<description><![CDATA[#MiehikkÃ¤lÃ¤]]></description>				
+			<name>Miehikkälä</name>				
+			<description><![CDATA[#Miehikkälä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11152,7 +11142,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Merikarvia</name>				
-			<description><![CDATA[#Merikarvia]]></description>				
+			<description><![CDATA[#Merikarvia#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -11438,8 +11428,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>HeinÃ¤vesi</name>				
-			<description><![CDATA[#HeinÃ¤vesi]]></description>				
+			<name>Heinävesi</name>				
+			<description><![CDATA[#Heinävesi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11452,7 +11442,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Rauma</name>				
-			<description><![CDATA[#Rauma]]></description>				
+			<description><![CDATA[#Rauma#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -11778,8 +11768,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>FÃ¶glÃ¶</name>				
-			<description><![CDATA[#FÃ¶glÃ¶]]></description>				
+			<name>Föglö</name>				
+			<description><![CDATA[#Föglö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -12954,7 +12944,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Uurainen</name>				
-			<description><![CDATA[#Uurainen]]></description>				
+			<description><![CDATA[#Uurainen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -12967,7 +12957,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kaustinen</name>				
-			<description><![CDATA[#Kaustinen]]></description>				
+			<description><![CDATA[#Kaustinen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -12979,8 +12969,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>JyvÃ¤skylÃ¤</name>				
-			<description><![CDATA[#JyvÃ¤skylÃ¤]]></description>				
+			<name>Jyväskylä</name>				
+			<description><![CDATA[#Jyväskylä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -12992,8 +12982,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>KyyjÃ¤rvi</name>				
-			<description><![CDATA[#KyyjÃ¤rvi]]></description>				
+			<name>Kyyjärvi</name>				
+			<description><![CDATA[#Kyyjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13006,7 +12996,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Janakkala</name>				
-			<description><![CDATA[#Janakkala]]></description>				
+			<description><![CDATA[#Janakkala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13019,7 +13009,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Salla</name>				
-			<description><![CDATA[#Salla]]></description>				
+			<description><![CDATA[#Salla#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13031,8 +13021,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>UtajÃ¤rvi</name>				
-			<description><![CDATA[#UtajÃ¤rvi]]></description>				
+			<name>Utajärvi</name>				
+			<description><![CDATA[#Utajärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13044,8 +13034,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PyhÃ¤joki</name>				
-			<description><![CDATA[#PyhÃ¤joki]]></description>				
+			<name>Pyhäjoki</name>				
+			<description><![CDATA[#Pyhäjoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -13068,7 +13058,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Muhos</name>				
-			<description><![CDATA[#Muhos]]></description>				
+			<description><![CDATA[#Muhos#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13081,7 +13071,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Tervola</name>				
-			<description><![CDATA[#Tervola]]></description>				
+			<description><![CDATA[#Tervola#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13093,8 +13083,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>SaarijÃ¤rvi</name>				
-			<description><![CDATA[#SaarijÃ¤rvi]]></description>				
+			<name>Saarijärvi</name>				
+			<description><![CDATA[#Saarijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13106,8 +13096,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>SodankylÃ¤</name>				
-			<description><![CDATA[#SodankylÃ¤]]></description>				
+			<name>Sodankylä</name>				
+			<description><![CDATA[#Sodankylä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13120,7 +13110,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Loimaa</name>				
-			<description><![CDATA[#Loimaa]]></description>				
+			<description><![CDATA[#Loimaa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13133,7 +13123,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hollola</name>				
-			<description><![CDATA[#Hollola]]></description>				
+			<description><![CDATA[#Hollola#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13145,8 +13135,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>NÃ¤rpiÃ¶</name>				
-			<description><![CDATA[#NÃ¤rpiÃ¶]]></description>				
+			<name>Närpiö</name>				
+			<description><![CDATA[#Närpiö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -13513,7 +13503,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Taivassalo</name>				
-			<description><![CDATA[#Taivassalo]]></description>				
+			<description><![CDATA[#Taivassalo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -13735,8 +13725,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>KittilÃ¤</name>				
-			<description><![CDATA[#KittilÃ¤]]></description>				
+			<name>Kittilä</name>				
+			<description><![CDATA[#Kittilä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13749,7 +13739,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Sievi</name>				
-			<description><![CDATA[#Sievi]]></description>				
+			<description><![CDATA[#Sievi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13761,8 +13751,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>SonkajÃ¤rvi</name>				
-			<description><![CDATA[#SonkajÃ¤rvi]]></description>				
+			<name>Sonkajärvi</name>				
+			<description><![CDATA[#Sonkajärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13774,8 +13764,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>NurmijÃ¤rvi</name>				
-			<description><![CDATA[#NurmijÃ¤rvi]]></description>				
+			<name>Nurmijärvi</name>				
+			<description><![CDATA[#Nurmijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13788,7 +13778,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lieksa</name>				
-			<description><![CDATA[#Lieksa]]></description>				
+			<description><![CDATA[#Lieksa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13801,7 +13791,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lieto</name>				
-			<description><![CDATA[#Lieto]]></description>				
+			<description><![CDATA[#Lieto#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13813,8 +13803,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>KÃ¤rkÃ¶lÃ¤</name>				
-			<description><![CDATA[#KÃ¤rkÃ¶lÃ¤]]></description>				
+			<name>Kärkölä</name>				
+			<description><![CDATA[#Kärkölä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13827,7 +13817,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kustavi</name>				
-			<description><![CDATA[#Kustavi]]></description>				
+			<description><![CDATA[#Kustavi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -14458,7 +14448,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pietarsaari</name>				
-			<description><![CDATA[#Pietarsaari]]></description>				
+			<description><![CDATA[#Pietarsaari#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -14521,7 +14511,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Juuka</name>				
-			<description><![CDATA[#Juuka]]></description>				
+			<description><![CDATA[#Juuka#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14534,7 +14524,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Siuntio</name>				
-			<description><![CDATA[#Siuntio]]></description>				
+			<description><![CDATA[#Siuntio#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -14573,7 +14563,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ylitornio</name>				
-			<description><![CDATA[#Ylitornio]]></description>				
+			<description><![CDATA[#Ylitornio#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14585,8 +14575,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>KokemÃ¤ki</name>				
-			<description><![CDATA[#KokemÃ¤ki]]></description>				
+			<name>Kokemäki</name>				
+			<description><![CDATA[#Kokemäki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14599,7 +14589,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Nakkila</name>				
-			<description><![CDATA[#Nakkila]]></description>				
+			<description><![CDATA[#Nakkila#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14612,7 +14602,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Joensuu</name>				
-			<description><![CDATA[#Joensuu]]></description>				
+			<description><![CDATA[#Joensuu#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14625,7 +14615,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Siikajoki</name>				
-			<description><![CDATA[#Siikajoki]]></description>				
+			<description><![CDATA[#Siikajoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -14656,7 +14646,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Uusikaupunki</name>				
-			<description><![CDATA[#Uusikaupunki]]></description>				
+			<description><![CDATA[#Uusikaupunki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -15687,7 +15677,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Virrat</name>				
-			<description><![CDATA[#Virrat]]></description>				
+			<description><![CDATA[#Virrat#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15700,7 +15690,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Savukoski</name>				
-			<description><![CDATA[#Savukoski]]></description>				
+			<description><![CDATA[#Savukoski#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15713,7 +15703,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Toholampi</name>				
-			<description><![CDATA[#Toholampi]]></description>				
+			<description><![CDATA[#Toholampi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15726,7 +15716,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kuhmo</name>				
-			<description><![CDATA[#Kuhmo]]></description>				
+			<description><![CDATA[#Kuhmo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15739,7 +15729,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kuusamo</name>				
-			<description><![CDATA[#Kuusamo]]></description>				
+			<description><![CDATA[#Kuusamo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15752,7 +15742,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Urjala</name>				
-			<description><![CDATA[#Urjala]]></description>				
+			<description><![CDATA[#Urjala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15765,7 +15755,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Tammela</name>				
-			<description><![CDATA[#Tammela]]></description>				
+			<description><![CDATA[#Tammela#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15778,7 +15768,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Parkano</name>				
-			<description><![CDATA[#Parkano]]></description>				
+			<description><![CDATA[#Parkano#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15791,7 +15781,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Soini</name>				
-			<description><![CDATA[#Soini]]></description>				
+			<description><![CDATA[#Soini#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15804,7 +15794,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Parainen</name>				
-			<description><![CDATA[#Parainen]]></description>				
+			<description><![CDATA[#Parainen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22283,7 +22273,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kinnula</name>				
-			<description><![CDATA[#Kinnula]]></description>				
+			<description><![CDATA[#Kinnula#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22296,7 +22286,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Enonkoski</name>				
-			<description><![CDATA[#Enonkoski]]></description>				
+			<description><![CDATA[#Enonkoski#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22309,7 +22299,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Sipoo</name>				
-			<description><![CDATA[#Sipoo]]></description>				
+			<description><![CDATA[#Sipoo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22564,7 +22554,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Sauvo</name>				
-			<description><![CDATA[#Sauvo]]></description>				
+			<description><![CDATA[#Sauvo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22650,8 +22640,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>MyrskylÃ¤</name>				
-			<description><![CDATA[#MyrskylÃ¤]]></description>				
+			<name>Myrskylä</name>				
+			<description><![CDATA[#Myrskylä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22664,7 +22654,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Laihia</name>				
-			<description><![CDATA[#Laihia]]></description>				
+			<description><![CDATA[#Laihia#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22677,7 +22667,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kolari</name>				
-			<description><![CDATA[#Kolari]]></description>				
+			<description><![CDATA[#Kolari#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22689,8 +22679,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>FinstrÃ¶m</name>				
-			<description><![CDATA[#FinstrÃ¶m]]></description>				
+			<name>Finström</name>				
+			<description><![CDATA[#Finström#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22745,7 +22735,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Outokumpu</name>				
-			<description><![CDATA[#Outokumpu]]></description>				
+			<description><![CDATA[#Outokumpu#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22758,7 +22748,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kuortane</name>				
-			<description><![CDATA[#Kuortane]]></description>				
+			<description><![CDATA[#Kuortane#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22771,7 +22761,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Inari</name>				
-			<description><![CDATA[#Inari]]></description>				
+			<description><![CDATA[#Inari#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22784,7 +22774,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Sund</name>				
-			<description><![CDATA[#Sund]]></description>				
+			<description><![CDATA[#Sund#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22879,7 +22869,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lemi</name>				
-			<description><![CDATA[#Lemi]]></description>				
+			<description><![CDATA[#Lemi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22892,7 +22882,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kuopio</name>				
-			<description><![CDATA[#Kuopio]]></description>				
+			<description><![CDATA[#Kuopio#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22905,7 +22895,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Marttila</name>				
-			<description><![CDATA[#Marttila]]></description>				
+			<description><![CDATA[#Marttila#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22918,7 +22908,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Jokioinen</name>				
-			<description><![CDATA[#Jokioinen]]></description>				
+			<description><![CDATA[#Jokioinen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22931,7 +22921,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Taipalsaari</name>				
-			<description><![CDATA[#Taipalsaari]]></description>				
+			<description><![CDATA[#Taipalsaari#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22944,7 +22934,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Juva</name>				
-			<description><![CDATA[#Juva]]></description>				
+			<description><![CDATA[#Juva#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22957,7 +22947,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Vihti</name>				
-			<description><![CDATA[#Vihti]]></description>				
+			<description><![CDATA[#Vihti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22970,7 +22960,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Nokia</name>				
-			<description><![CDATA[#Nokia]]></description>				
+			<description><![CDATA[#Nokia#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22983,7 +22973,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hirvensalmi</name>				
-			<description><![CDATA[#Hirvensalmi]]></description>				
+			<description><![CDATA[#Hirvensalmi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22996,7 +22986,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Perho</name>				
-			<description><![CDATA[#Perho]]></description>				
+			<description><![CDATA[#Perho#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -23009,7 +22999,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kitee</name>				
-			<description><![CDATA[#Kitee]]></description>				
+			<description><![CDATA[#Kitee#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -23022,7 +23012,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kiuruvesi</name>				
-			<description><![CDATA[#Kiuruvesi]]></description>				
+			<description><![CDATA[#Kiuruvesi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -23035,7 +23025,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Maalahti</name>				
-			<description><![CDATA[#Maalahti]]></description>				
+			<description><![CDATA[#Maalahti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -23993,8 +23983,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>KÃ¤rsÃ¤mÃ¤ki</name>				
-			<description><![CDATA[#KÃ¤rsÃ¤mÃ¤ki]]></description>				
+			<name>Kärsämäki</name>				
+			<description><![CDATA[#Kärsämäki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24007,7 +23997,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Puolanka</name>				
-			<description><![CDATA[#Puolanka]]></description>				
+			<description><![CDATA[#Puolanka#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24019,8 +24009,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>SiilinjÃ¤rvi</name>				
-			<description><![CDATA[#SiilinjÃ¤rvi]]></description>				
+			<name>Siilinjärvi</name>				
+			<description><![CDATA[#Siilinjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24033,7 +24023,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pello</name>				
-			<description><![CDATA[#Pello]]></description>				
+			<description><![CDATA[#Pello#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24046,7 +24036,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Siikainen</name>				
-			<description><![CDATA[#Siikainen]]></description>				
+			<description><![CDATA[#Siikainen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24059,7 +24049,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Parikkala</name>				
-			<description><![CDATA[#Parikkala]]></description>				
+			<description><![CDATA[#Parikkala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24071,8 +24061,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PetÃ¤jÃ¤vesi</name>				
-			<description><![CDATA[#PetÃ¤jÃ¤vesi]]></description>				
+			<name>Petäjävesi</name>				
+			<description><![CDATA[#Petäjävesi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24085,7 +24075,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Alavus</name>				
-			<description><![CDATA[#Alavus]]></description>				
+			<description><![CDATA[#Alavus#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24098,7 +24088,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Oulainen</name>				
-			<description><![CDATA[#Oulainen]]></description>				
+			<description><![CDATA[#Oulainen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24111,7 +24101,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Vesilahti</name>				
-			<description><![CDATA[#Vesilahti]]></description>				
+			<description><![CDATA[#Vesilahti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24124,7 +24114,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Rantasalmi</name>				
-			<description><![CDATA[#Rantasalmi]]></description>				
+			<description><![CDATA[#Rantasalmi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24136,8 +24126,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>KivijÃ¤rvi</name>				
-			<description><![CDATA[#KivijÃ¤rvi]]></description>				
+			<name>Kivijärvi</name>				
+			<description><![CDATA[#Kivijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24149,8 +24139,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>KemiÃ¶nsaari</name>				
-			<description><![CDATA[#KemiÃ¶nsaari]]></description>				
+			<name>Kemiönsaari</name>				
+			<description><![CDATA[#Kemiönsaari#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -26677,7 +26667,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Imatra</name>				
-			<description><![CDATA[#Imatra]]></description>				
+			<description><![CDATA[#Imatra#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26690,7 +26680,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Karstula</name>				
-			<description><![CDATA[#Karstula]]></description>				
+			<description><![CDATA[#Karstula#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26702,8 +26692,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>LapinjÃ¤rvi</name>				
-			<description><![CDATA[#LapinjÃ¤rvi]]></description>				
+			<name>Lapinjärvi</name>				
+			<description><![CDATA[#Lapinjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26715,8 +26705,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Ã„Ã¤nekoski</name>				
-			<description><![CDATA[#Ã„Ã¤nekoski]]></description>				
+			<name>Äänekoski</name>				
+			<description><![CDATA[#Äänekoski#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26728,8 +26718,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>AlajÃ¤rvi</name>				
-			<description><![CDATA[#AlajÃ¤rvi]]></description>				
+			<name>Alajärvi</name>				
+			<description><![CDATA[#Alajärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26742,7 +26732,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Savitaipale</name>				
-			<description><![CDATA[#Savitaipale]]></description>				
+			<description><![CDATA[#Savitaipale#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26755,7 +26745,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Mustasaari</name>				
-			<description><![CDATA[#Mustasaari]]></description>				
+			<description><![CDATA[#Mustasaari#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -27898,7 +27888,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hammarland</name>				
-			<description><![CDATA[#Hammarland]]></description>				
+			<description><![CDATA[#Hammarland#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -28369,7 +28359,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Muurame</name>				
-			<description><![CDATA[#Muurame]]></description>				
+			<description><![CDATA[#Muurame#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28382,7 +28372,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Isojoki</name>				
-			<description><![CDATA[#Isojoki]]></description>				
+			<description><![CDATA[#Isojoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28395,7 +28385,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Orimattila</name>				
-			<description><![CDATA[#Orimattila]]></description>				
+			<description><![CDATA[#Orimattila#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28408,7 +28398,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Joroinen</name>				
-			<description><![CDATA[#Joroinen]]></description>				
+			<description><![CDATA[#Joroinen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28420,8 +28410,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>KankaanpÃ¤Ã¤</name>				
-			<description><![CDATA[#KankaanpÃ¤Ã¤]]></description>				
+			<name>Kankaanpää</name>				
+			<description><![CDATA[#Kankaanpää#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28434,7 +28424,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Varkaus</name>				
-			<description><![CDATA[#Varkaus]]></description>				
+			<description><![CDATA[#Varkaus#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28447,7 +28437,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Vehmaa</name>				
-			<description><![CDATA[#Vehmaa]]></description>				
+			<description><![CDATA[#Vehmaa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -28469,8 +28459,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>MÃ¤ntyharju</name>				
-			<description><![CDATA[#MÃ¤ntyharju]]></description>				
+			<name>Mäntyharju</name>				
+			<description><![CDATA[#Mäntyharju#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28483,7 +28473,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Veteli</name>				
-			<description><![CDATA[#Veteli]]></description>				
+			<description><![CDATA[#Veteli#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28496,7 +28486,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Suomussalmi</name>				
-			<description><![CDATA[#Suomussalmi]]></description>				
+			<description><![CDATA[#Suomussalmi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28509,7 +28499,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Rautalampi</name>				
-			<description><![CDATA[#Rautalampi]]></description>				
+			<description><![CDATA[#Rautalampi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28522,7 +28512,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Helsinki</name>				
-			<description><![CDATA[#Helsinki]]></description>				
+			<description><![CDATA[#Helsinki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -28936,8 +28926,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>KemijÃ¤rvi</name>				
-			<description><![CDATA[#KemijÃ¤rvi]]></description>				
+			<name>Kemijärvi</name>				
+			<description><![CDATA[#Kemijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28950,7 +28940,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Forssa</name>				
-			<description><![CDATA[#Forssa]]></description>				
+			<description><![CDATA[#Forssa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28963,7 +28953,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kotka</name>				
-			<description><![CDATA[#Kotka]]></description>				
+			<description><![CDATA[#Kotka#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -29546,7 +29536,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pirkkala</name>				
-			<description><![CDATA[#Pirkkala]]></description>				
+			<description><![CDATA[#Pirkkala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29559,7 +29549,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Asikkala</name>				
-			<description><![CDATA[#Asikkala]]></description>				
+			<description><![CDATA[#Asikkala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29572,7 +29562,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Vaala</name>				
-			<description><![CDATA[#Vaala]]></description>				
+			<description><![CDATA[#Vaala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29585,7 +29575,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kaavi</name>				
-			<description><![CDATA[#Kaavi]]></description>				
+			<description><![CDATA[#Kaavi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29598,7 +29588,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kauhajoki</name>				
-			<description><![CDATA[#Kauhajoki]]></description>				
+			<description><![CDATA[#Kauhajoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29611,7 +29601,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Aura</name>				
-			<description><![CDATA[#Aura]]></description>				
+			<description><![CDATA[#Aura#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29624,7 +29614,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Suonenjoki</name>				
-			<description><![CDATA[#Suonenjoki]]></description>				
+			<description><![CDATA[#Suonenjoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29637,7 +29627,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Huittinen</name>				
-			<description><![CDATA[#Huittinen]]></description>				
+			<description><![CDATA[#Huittinen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29649,8 +29639,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>HausjÃ¤rvi</name>				
-			<description><![CDATA[#HausjÃ¤rvi]]></description>				
+			<name>Hausjärvi</name>				
+			<description><![CDATA[#Hausjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29662,8 +29652,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>SeinÃ¤joki</name>				
-			<description><![CDATA[#SeinÃ¤joki]]></description>				
+			<name>Seinäjoki</name>				
+			<description><![CDATA[#Seinäjoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29676,7 +29666,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ruokolahti</name>				
-			<description><![CDATA[#Ruokolahti]]></description>				
+			<description><![CDATA[#Ruokolahti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29689,7 +29679,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Oulu</name>				
-			<description><![CDATA[#Oulu]]></description>				
+			<description><![CDATA[#Oulu#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -29783,8 +29773,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>KorsnÃ¤s</name>				
-			<description><![CDATA[#KorsnÃ¤s]]></description>				
+			<name>Korsnäs</name>				
+			<description><![CDATA[#Korsnäs#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -30030,8 +30020,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>EvijÃ¤rvi</name>				
-			<description><![CDATA[#EvijÃ¤rvi]]></description>				
+			<name>Evijärvi</name>				
+			<description><![CDATA[#Evijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30043,8 +30033,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>ReisjÃ¤rvi</name>				
-			<description><![CDATA[#ReisjÃ¤rvi]]></description>				
+			<name>Reisjärvi</name>				
+			<description><![CDATA[#Reisjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30057,7 +30047,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Tornio</name>				
-			<description><![CDATA[#Tornio]]></description>				
+			<description><![CDATA[#Tornio#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -30152,7 +30142,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Halsua</name>				
-			<description><![CDATA[#Halsua]]></description>				
+			<description><![CDATA[#Halsua#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30164,8 +30154,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PudasjÃ¤rvi</name>				
-			<description><![CDATA[#PudasjÃ¤rvi]]></description>				
+			<name>Pudasjärvi</name>				
+			<description><![CDATA[#Pudasjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30178,7 +30168,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Sulkava</name>				
-			<description><![CDATA[#Sulkava]]></description>				
+			<description><![CDATA[#Sulkava#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30190,8 +30180,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>LempÃ¤Ã¤lÃ¤</name>				
-			<description><![CDATA[#LempÃ¤Ã¤lÃ¤]]></description>				
+			<name>Lempäälä</name>				
+			<description><![CDATA[#Lempäälä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30204,7 +30194,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ranua</name>				
-			<description><![CDATA[#Ranua]]></description>				
+			<description><![CDATA[#Ranua#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30217,7 +30207,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Virolahti</name>				
-			<description><![CDATA[#Virolahti]]></description>				
+			<description><![CDATA[#Virolahti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -30495,8 +30485,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>LestijÃ¤rvi</name>				
-			<description><![CDATA[#LestijÃ¤rvi]]></description>				
+			<name>Lestijärvi</name>				
+			<description><![CDATA[#Lestijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30509,7 +30499,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lapinlahti</name>				
-			<description><![CDATA[#Lapinlahti]]></description>				
+			<description><![CDATA[#Lapinlahti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30522,7 +30512,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ruovesi</name>				
-			<description><![CDATA[#Ruovesi]]></description>				
+			<description><![CDATA[#Ruovesi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30535,7 +30525,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Haapavesi</name>				
-			<description><![CDATA[#Haapavesi]]></description>				
+			<description><![CDATA[#Haapavesi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30548,7 +30538,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Nurmes</name>				
-			<description><![CDATA[#Nurmes]]></description>				
+			<description><![CDATA[#Nurmes#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30561,7 +30551,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Vimpeli</name>				
-			<description><![CDATA[#Vimpeli]]></description>				
+			<description><![CDATA[#Vimpeli#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30573,8 +30563,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>MÃ¤ntsÃ¤lÃ¤</name>				
-			<description><![CDATA[#MÃ¤ntsÃ¤lÃ¤]]></description>				
+			<name>Mäntsälä</name>				
+			<description><![CDATA[#Mäntsälä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30587,7 +30577,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Padasjoki</name>				
-			<description><![CDATA[#Padasjoki]]></description>				
+			<description><![CDATA[#Padasjoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30600,7 +30590,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kalajoki</name>				
-			<description><![CDATA[#Kalajoki]]></description>				
+			<description><![CDATA[#Kalajoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -30783,7 +30773,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Savonlinna</name>				
-			<description><![CDATA[#Savonlinna]]></description>				
+			<description><![CDATA[#Savonlinna#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30795,8 +30785,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>IsokyrÃ¶</name>				
-			<description><![CDATA[#IsokyrÃ¶]]></description>				
+			<name>Isokyrö</name>				
+			<description><![CDATA[#Isokyrö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30809,7 +30799,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kurikka</name>				
-			<description><![CDATA[#Kurikka]]></description>				
+			<description><![CDATA[#Kurikka#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30822,7 +30812,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Orivesi</name>				
-			<description><![CDATA[#Orivesi]]></description>				
+			<description><![CDATA[#Orivesi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30834,8 +30824,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>KihniÃ¶</name>				
-			<description><![CDATA[#KihniÃ¶]]></description>				
+			<name>Kihniö</name>				
+			<description><![CDATA[#Kihniö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30848,7 +30838,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Luoto</name>				
-			<description><![CDATA[#Luoto]]></description>				
+			<description><![CDATA[#Luoto#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -31262,8 +31252,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Ã„htÃ¤ri</name>				
-			<description><![CDATA[#Ã„htÃ¤ri]]></description>				
+			<name>Ähtäri</name>				
+			<description><![CDATA[#Ähtäri#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -31275,8 +31265,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>LuumÃ¤ki</name>				
-			<description><![CDATA[#LuumÃ¤ki]]></description>				
+			<name>Luumäki</name>				
+			<description><![CDATA[#Luumäki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -31289,7 +31279,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Tampere</name>				
-			<description><![CDATA[#Tampere]]></description>				
+			<description><![CDATA[#Tampere#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -31302,7 +31292,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Jomala</name>				
-			<description><![CDATA[#Jomala]]></description>				
+			<description><![CDATA[#Jomala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -31468,8 +31458,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>BrÃ¤ndÃ¶</name>				
-			<description><![CDATA[#BrÃ¤ndÃ¶]]></description>				
+			<name>Brändö</name>				
+			<description><![CDATA[#Brändö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -33091,8 +33081,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>SÃ¤kylÃ¤</name>				
-			<description><![CDATA[#SÃ¤kylÃ¤]]></description>				
+			<name>Säkylä</name>				
+			<description><![CDATA[#Säkylä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33105,7 +33095,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Valkeakoski</name>				
-			<description><![CDATA[#Valkeakoski]]></description>				
+			<description><![CDATA[#Valkeakoski#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33118,7 +33108,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pukkila</name>				
-			<description><![CDATA[#Pukkila]]></description>				
+			<description><![CDATA[#Pukkila#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33131,7 +33121,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ylivieska</name>				
-			<description><![CDATA[#Ylivieska]]></description>				
+			<description><![CDATA[#Ylivieska#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33144,7 +33134,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Liperi</name>				
-			<description><![CDATA[#Liperi]]></description>				
+			<description><![CDATA[#Liperi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33156,8 +33146,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>EckerÃ¶</name>				
-			<description><![CDATA[#EckerÃ¶]]></description>				
+			<name>Eckerö</name>				
+			<description><![CDATA[#Eckerö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -33468,7 +33458,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Puumala</name>				
-			<description><![CDATA[#Puumala]]></description>				
+			<description><![CDATA[#Puumala#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33481,7 +33471,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lahti</name>				
-			<description><![CDATA[#Lahti]]></description>				
+			<description><![CDATA[#Lahti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33493,8 +33483,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>YpÃ¤jÃ¤</name>				
-			<description><![CDATA[#YpÃ¤jÃ¤]]></description>				
+			<name>Ypäjä</name>				
+			<description><![CDATA[#Ypäjä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33507,7 +33497,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Honkajoki</name>				
-			<description><![CDATA[#Honkajoki]]></description>				
+			<description><![CDATA[#Honkajoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33520,7 +33510,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kajaani</name>				
-			<description><![CDATA[#Kajaani]]></description>				
+			<description><![CDATA[#Kajaani#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33533,7 +33523,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ii</name>				
-			<description><![CDATA[#Ii]]></description>				
+			<description><![CDATA[#Ii#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -33636,7 +33626,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ilomantsi</name>				
-			<description><![CDATA[#Ilomantsi]]></description>				
+			<description><![CDATA[#Ilomantsi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33648,8 +33638,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>JÃ¤mijÃ¤rvi</name>				
-			<description><![CDATA[#JÃ¤mijÃ¤rvi]]></description>				
+			<name>Jämijärvi</name>				
+			<description><![CDATA[#Jämijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33662,7 +33652,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Sottunga</name>				
-			<description><![CDATA[#Sottunga]]></description>				
+			<description><![CDATA[#Sottunga#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -34269,7 +34259,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Masku</name>				
-			<description><![CDATA[#Masku]]></description>				
+			<description><![CDATA[#Masku#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -34355,8 +34345,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>EnontekiÃ¶</name>				
-			<description><![CDATA[#EnontekiÃ¶]]></description>				
+			<name>Enontekiö</name>				
+			<description><![CDATA[#Enontekiö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -34369,7 +34359,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Raahe</name>				
-			<description><![CDATA[#Raahe]]></description>				
+			<description><![CDATA[#Raahe#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -34416,7 +34406,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Loviisa</name>				
-			<description><![CDATA[#Loviisa]]></description>				
+			<description><![CDATA[#Loviisa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -35231,7 +35221,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Akaa</name>				
-			<description><![CDATA[#Akaa]]></description>				
+			<description><![CDATA[#Akaa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35244,7 +35234,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hyrynsalmi</name>				
-			<description><![CDATA[#Hyrynsalmi]]></description>				
+			<description><![CDATA[#Hyrynsalmi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35257,7 +35247,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Laitila</name>				
-			<description><![CDATA[#Laitila]]></description>				
+			<description><![CDATA[#Laitila#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35269,8 +35259,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>RautjÃ¤rvi</name>				
-			<description><![CDATA[#RautjÃ¤rvi]]></description>				
+			<name>Rautjärvi</name>				
+			<description><![CDATA[#Rautjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35283,7 +35273,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kauniainen</name>				
-			<description><![CDATA[#Kauniainen]]></description>				
+			<description><![CDATA[#Kauniainen#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35296,7 +35286,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Hattula</name>				
-			<description><![CDATA[#Hattula]]></description>				
+			<description><![CDATA[#Hattula#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35309,7 +35299,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Karijoki</name>				
-			<description><![CDATA[#Karijoki]]></description>				
+			<description><![CDATA[#Karijoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35321,8 +35311,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>MÃ¤nttÃ¤-Vilppula</name>				
-			<description><![CDATA[#MÃ¤nttÃ¤-Vilppula]]></description>				
+			<name>Mänttä-Vilppula</name>				
+			<description><![CDATA[#Mänttä-Vilppula#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35335,7 +35325,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Somero</name>				
-			<description><![CDATA[#Somero]]></description>				
+			<description><![CDATA[#Somero#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35348,7 +35338,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Liminka</name>				
-			<description><![CDATA[#Liminka]]></description>				
+			<description><![CDATA[#Liminka#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35360,8 +35350,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>YlÃ¶jÃ¤rvi</name>				
-			<description><![CDATA[#YlÃ¶jÃ¤rvi]]></description>				
+			<name>Ylöjärvi</name>				
+			<description><![CDATA[#Ylöjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35373,8 +35363,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>VÃ¶yri</name>				
-			<description><![CDATA[#VÃ¶yri]]></description>				
+			<name>Vöyri</name>				
+			<description><![CDATA[#Vöyri#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -35845,7 +35835,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Tervo</name>				
-			<description><![CDATA[#Tervo]]></description>				
+			<description><![CDATA[#Tervo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35858,7 +35848,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kannus</name>				
-			<description><![CDATA[#Kannus]]></description>				
+			<description><![CDATA[#Kannus#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35870,8 +35860,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PolvijÃ¤rvi</name>				
-			<description><![CDATA[#PolvijÃ¤rvi]]></description>				
+			<name>Polvijärvi</name>				
+			<description><![CDATA[#Polvijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35884,7 +35874,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Teuva</name>				
-			<description><![CDATA[#Teuva]]></description>				
+			<description><![CDATA[#Teuva#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35897,7 +35887,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Utsjoki</name>				
-			<description><![CDATA[#Utsjoki]]></description>				
+			<description><![CDATA[#Utsjoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35910,7 +35900,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Rautavaara</name>				
-			<description><![CDATA[#Rautavaara]]></description>				
+			<description><![CDATA[#Rautavaara#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35922,8 +35912,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PyhtÃ¤Ã¤</name>				
-			<description><![CDATA[#PyhtÃ¤Ã¤]]></description>				
+			<name>Pyhtää</name>				
+			<description><![CDATA[#Pyhtää#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -36217,8 +36207,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>HÃ¤meenlinna</name>				
-			<description><![CDATA[#HÃ¤meenlinna]]></description>				
+			<name>Hämeenlinna</name>				
+			<description><![CDATA[#Hämeenlinna#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36230,8 +36220,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PyhÃ¤jÃ¤rvi</name>				
-			<description><![CDATA[#PyhÃ¤jÃ¤rvi]]></description>				
+			<name>Pyhäjärvi</name>				
+			<description><![CDATA[#Pyhäjärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36244,7 +36234,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kaarina</name>				
-			<description><![CDATA[#Kaarina]]></description>				
+			<description><![CDATA[#Kaarina#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -36307,7 +36297,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Valtimo</name>				
-			<description><![CDATA[#Valtimo]]></description>				
+			<description><![CDATA[#Valtimo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36319,8 +36309,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PyhÃ¤ranta</name>				
-			<description><![CDATA[#PyhÃ¤ranta]]></description>				
+			<name>Pyhäranta</name>				
+			<description><![CDATA[#Pyhäranta#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -36407,7 +36397,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Raisio</name>				
-			<description><![CDATA[#Raisio]]></description>				
+			<description><![CDATA[#Raisio#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36420,7 +36410,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Eurajoki</name>				
-			<description><![CDATA[#Eurajoki]]></description>				
+			<description><![CDATA[#Eurajoki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -36842,8 +36832,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>HÃ¤meenkyrÃ¶</name>				
-			<description><![CDATA[#HÃ¤meenkyrÃ¶]]></description>				
+			<name>Hämeenkyrö</name>				
+			<description><![CDATA[#Hämeenkyrö#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36855,8 +36845,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>TyrnÃ¤vÃ¤</name>				
-			<description><![CDATA[#TyrnÃ¤vÃ¤]]></description>				
+			<name>Tyrnävä</name>				
+			<description><![CDATA[#Tyrnävä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36869,7 +36859,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pihtipudas</name>				
-			<description><![CDATA[#Pihtipudas]]></description>				
+			<description><![CDATA[#Pihtipudas#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36882,7 +36872,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Luhanka</name>				
-			<description><![CDATA[#Luhanka]]></description>				
+			<description><![CDATA[#Luhanka#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36894,8 +36884,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>RiihimÃ¤ki</name>				
-			<description><![CDATA[#RiihimÃ¤ki]]></description>				
+			<name>Riihimäki</name>				
+			<description><![CDATA[#Riihimäki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36908,7 +36898,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Vesanto</name>				
-			<description><![CDATA[#Vesanto]]></description>				
+			<description><![CDATA[#Vesanto#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36921,7 +36911,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Ulvila</name>				
-			<description><![CDATA[#Ulvila]]></description>				
+			<description><![CDATA[#Ulvila#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36934,7 +36924,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Toivakka</name>				
-			<description><![CDATA[#Toivakka]]></description>				
+			<description><![CDATA[#Toivakka#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36947,7 +36937,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Loppi</name>				
-			<description><![CDATA[#Loppi]]></description>				
+			<description><![CDATA[#Loppi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36960,7 +36950,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Pori</name>				
-			<description><![CDATA[#Pori]]></description>				
+			<description><![CDATA[#Pori#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -37487,7 +37477,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Sotkamo</name>				
-			<description><![CDATA[#Sotkamo]]></description>				
+			<description><![CDATA[#Sotkamo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37500,7 +37490,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Humppila</name>				
-			<description><![CDATA[#Humppila]]></description>				
+			<description><![CDATA[#Humppila#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37513,7 +37503,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Taivalkoski</name>				
-			<description><![CDATA[#Taivalkoski]]></description>				
+			<description><![CDATA[#Taivalkoski#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37526,7 +37516,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Rusko</name>				
-			<description><![CDATA[#Rusko]]></description>				
+			<description><![CDATA[#Rusko#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37538,8 +37528,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>PedersÃ¶ren kunta</name>				
-			<description><![CDATA[#PedersÃ¶ren kunta]]></description>				
+			<name>Pedersören kunta</name>				
+			<description><![CDATA[#Pedersören kunta#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -37618,7 +37608,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Konnevesi</name>				
-			<description><![CDATA[#Konnevesi]]></description>				
+			<description><![CDATA[#Konnevesi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37631,7 +37621,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kontiolahti</name>				
-			<description><![CDATA[#Kontiolahti]]></description>				
+			<description><![CDATA[#Kontiolahti#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37644,7 +37634,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Keminmaa</name>				
-			<description><![CDATA[#Keminmaa]]></description>				
+			<description><![CDATA[#Keminmaa#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37657,7 +37647,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kirkkonummi</name>				
-			<description><![CDATA[#Kirkkonummi]]></description>				
+			<description><![CDATA[#Kirkkonummi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -38128,7 +38118,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Paltamo</name>				
-			<description><![CDATA[#Paltamo]]></description>				
+			<description><![CDATA[#Paltamo#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38140,8 +38130,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>SysmÃ¤</name>				
-			<description><![CDATA[#SysmÃ¤]]></description>				
+			<name>Sysmä</name>				
+			<description><![CDATA[#Sysmä#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38153,8 +38143,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>TohmajÃ¤rvi</name>				
-			<description><![CDATA[#TohmajÃ¤rvi]]></description>				
+			<name>Tohmajärvi</name>				
+			<description><![CDATA[#Tohmajärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38166,8 +38156,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>RistijÃ¤rvi</name>				
-			<description><![CDATA[#RistijÃ¤rvi]]></description>				
+			<name>Ristijärvi</name>				
+			<description><![CDATA[#Ristijärvi#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38180,7 +38170,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Multia</name>				
-			<description><![CDATA[#Multia]]></description>				
+			<description><![CDATA[#Multia#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38193,7 +38183,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lohja</name>				
-			<description><![CDATA[#Lohja]]></description>				
+			<description><![CDATA[#Lohja#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38206,7 +38196,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Paimio</name>				
-			<description><![CDATA[#Paimio]]></description>				
+			<description><![CDATA[#Paimio#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38218,8 +38208,8 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>KÃ¶kar</name>				
-			<description><![CDATA[#KÃ¶kar]]></description>				
+			<name>Kökar</name>				
+			<description><![CDATA[#Kökar#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -39458,7 +39448,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Heinola</name>				
-			<description><![CDATA[#Heinola]]></description>				
+			<description><![CDATA[#Heinola#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -39471,7 +39461,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Kristiinankaupunki</name>				
-			<description><![CDATA[#Kristiinankaupunki]]></description>				
+			<description><![CDATA[#Kristiinankaupunki#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -39710,7 +39700,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Muonio</name>				
-			<description><![CDATA[#Muonio]]></description>				
+			<description><![CDATA[#Muonio#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -39723,7 +39713,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Lapua</name>				
-			<description><![CDATA[#Lapua]]></description>				
+			<description><![CDATA[#Lapua#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -39736,7 +39726,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 		</Placemark>					
 		<Placemark>					
 			<name>Karvia</name>				
-			<description><![CDATA[#Karvia]]></description>				
+			<description><![CDATA[#Karvia#]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -39812,72 +39802,4 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 			</Pair>				
 		</StyleMap>					
 	</Document>						
-</kml>				
-"""
-###################################################################################
-if len(rawgeocachefi) == "[LIITÃ„ LÃ–YTÃ–TAULUKKO PAIKKAKUNNITTAIN TÃ„HÃ„N]":
-	print("""'LÃ¶ytÃ¶taulukko paikkakunnittain' puuttuu""")
-	exit()
-
-otsikko = rawgeocachefi[rawgeocachefi.find('Sija\t'):rawgeocachefi.find('Yht.\n')+4]
-stats = rawgeocachefi[rawgeocachefi.find('1.\t'):rawgeocachefi.find('\n',rawgeocachefi.find(kuntia+"."))].replace(otsikko+'\n',"")
-sarake = otsikko.split('\t')
-
-k, A = 1, 0
-while k <= int(kuntia):
-	A = stats.find(str(k)+'.'+'\t', A)	
-	if k != int(kuntia):
-		B = A + stats[A:].find('\n')
-	else:
-		B = len(stats)
-	kunta = stats[A:B].split('\t')
-	
-	PAYLOAD = kunta[0]+kunta[1]+' '+sarake[15]+' '+kunta[15]+' /'
-	if int(kunta[15]) > 0:
-		COLOR = '#poly-009D57-1-0'
-		if int(kunta[2]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[2]+' '+kunta[2]+' '
-		if int(kunta[3]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[3]+' '+kunta[3]+' '
-		if int(kunta[4]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[4]+' '+kunta[4]+' '
-		if int(kunta[5]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[5]+' '+kunta[5]+' '
-		if int(kunta[6]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[6]+' '+kunta[6]+' '
-		if int(kunta[7]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[7]+' '+kunta[7]+' '
-		if int(kunta[8]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[8]+' '+kunta[8]+' '
-		if int(kunta[9]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[9]+' '+kunta[9]+' '
-		if int(kunta[10]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[10]+' '+kunta[10]+' '
-		if int(kunta[11]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[11]+' '+kunta[11]+' '
-		if int(kunta[12]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[12]+' '+kunta[12]+' '
-		if int(kunta[13]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[13]+' '+kunta[13]+' '
-		if int(kunta[14]) > 0:
-			PAYLOAD = PAYLOAD+'/ '+sarake[14]+' '+kunta[14]+' '
-	else:
-		COLOR = '#poly-DB4436-1-64'
-	
-	KuntaA = kuntarajat.find('<name>'+kunta[1])
-	
-	SplitA = kuntarajat[KuntaA:].find('CDATA[')+KuntaA+6
-	SplitB = kuntarajat[KuntaA:].find(']]></description>')+KuntaA
-	kuntarajat = kuntarajat[:SplitA]+PAYLOAD+kuntarajat[SplitB:]
-	
-	SplitA = kuntarajat[KuntaA:].find('<styleUrl>')+KuntaA+10
-	SplitB = kuntarajat[KuntaA:].find('</styleUrl>')+KuntaA
-	
-	kuntarajat = kuntarajat[:SplitA]+COLOR+kuntarajat[SplitB:]
-	
-	
-	k = k + 1
-with open("Kuntarajat.kml", "w") as f:
-    f.write(kuntarajat)
-print(kuntarajat)
-print('VALMIS')
+</kml>
