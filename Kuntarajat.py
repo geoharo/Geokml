@@ -39815,7 +39815,7 @@ kuntarajat = """<?xml version='1.0' encoding='UTF-8'?>
 </kml>				
 """
 ###################################################################################
-if len(rawgeocachefi) == "[LIITÄ LÖYTÖTAULUKKO PAIKKAKUNNITTAIN TÄHÄN]":
+if rawgeocachefi == "[LIITÄ LÖYTÖTAULUKKO PAIKKAKUNNITTAIN TÄHÄN]":
 	print("""'Löytötaulukko paikkakunnittain' puuttuu""")
 	exit()
 
