@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-import os, sys
+import os, sys, datetime
 
 
 rawgeocachefi = """[LIITÄ LÖYTÖTAULUKKO PAIKKAKUNNITTAIN TÄHÄN]"""
@@ -39877,7 +39877,9 @@ while k <= int(kuntia):
 	
 	
 	k = k + 1
-with open("Kuntarajat.kml", "w") as f:
+now = datetime.datetime.now()
+tiedosto = "Kuntarajat" + now.strftime("%d%m%Y") + ".kml"
+with open(tiedosto, "w") as f:
     f.write(kuntarajat)
 print(kuntarajat)
 print('VALMIS')
