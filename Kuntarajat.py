@@ -1,4 +1,4 @@
-#!/usr/bin/python
+﻿#!/usr/bin/python
 # -*- coding: UTF-8 -*-
 import os, sys, datetime
 
@@ -39864,7 +39864,7 @@ while k <= int(kuntia):
 	else:
 		COLOR = '#poly-DB4436-1-64'
 	
-	KuntaA = kuntarajat.find('<name>'+kunta[1])
+	KuntaA = kuntarajat.find('<name>'+kunta[1]+'</name>')
 	
 	SplitA = kuntarajat[KuntaA:].find('CDATA[')+KuntaA+6
 	SplitB = kuntarajat[KuntaA:].find(']]></description>')+KuntaA
