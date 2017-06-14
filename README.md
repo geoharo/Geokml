@@ -3,7 +3,7 @@ Suomen kuntarajat, graticulet ja reittipisteet - Geocaching kml map
 
 [![Esim.png](https://s9.postimg.org/a22x8bm5r/Esim.png)](https://postimg.org/image/4dwmhfht7/)
 
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=114VJTemi07NH27FAre7fAtSISjk" width="640" height="480"></iframe>
+
 <b>[>>>Esimerkkikartta<<<](https://drive.google.com/open?id=114VJTemi07NH27FAre7fAtSISjk&usp=sharing)</b>
 
 
