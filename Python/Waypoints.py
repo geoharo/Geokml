@@ -5,8 +5,10 @@ import sys, re#, datetime
 #starttime = datetime.datetime.now()
 
 #***gpx***
-filepath = input("Input gpx path: ")
-#filepath = 'WP.gpx'
+filepath = input("Input filepath to your gpx: ")
+if filepath[-4:] != ".gpx":
+	filepath = filepath + ".gpx"
+
 gpx = open(filepath, encoding="utf8").read()
 global kml
 global A
@@ -413,4 +415,5 @@ tiedostonimi = "Reittipisteet.kml"
 #tiedostonimi = "Waypoints" + starttime.strftime("%d_%m_%Y") + ".kml"
 with open(tiedostonimi, "w", encoding='utf-8') as f:
     f.write(kml)
+print(tiedostonimi,"Done!")
 

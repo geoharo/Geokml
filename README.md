@@ -15,7 +15,7 @@ Tältä GitHub-tililtä löydät Geokml.xlsm -tiedoston käyttöohjeineen.
 Oman kuntakartan tekemiseen tarvitset Microsoft Excelin ja Google-tilin kartan tallentamista varten.
 
 ######################################################
-<b>PÄIVITYS 18.01.2017</b>
+<br><b>PÄIVITYS 18.01.2017</b>
 Nyt kuntakartan väritys onnistuu myös ilman Exceliä.
 
 Lataa [Kuntarajat.py](https://github.com/geoharo/Geokml/blob/master/Kuntarajat.py). Asenna [Python](https://www.python.org/downloads/), liitä tekstieditorilla muokaten oma löytötaulukko paikkakunnittain, tallenna muutokset ja aja tiedosto. Scripti luo samaan polkuun valmiin Kuntarajat.kml -tiedoston. [Pythonscriptin ohje](https://github.com/geoharo/Geokml/blob/master/PythonscriptOhje.pdf)
@@ -25,7 +25,9 @@ Vaihtoehtoisesti voit [ajaa scriptin nettiselaimessa](https://repl.it/FNVg/0) il
 
 Perustuu Maanmittauslaitoksen aineistoon.
 
+
 Maanmittauslaitoksen kuntarajat WMS-palveluna (esimerkiksi Locus Map -sovellukseen) – WMS-url: http://avoindata.maanmittauslaitos.fi/geoserver/ows?service=wms&version=1.1.1&request=GetCapabilities
+
 
 Tarvittaessa [ota yhteyttä!](https://www.geocaching.com/email/?guid=d30ee7cc-018f-4e64-a4b1-06c4011e4f63)
 
