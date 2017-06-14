@@ -14,9 +14,9 @@ Suomen kuntarajat, graticulet ja reittipisteet - Geocaching kml map
 Tästä GitHub-reposta löydät tarvittavat välineet ja ohjeet löytöjen mukaan väritetyn kuntakartan ja graticulekartan luomiseen sekä reittipisteiden lisäämiseen Google Mapsiin.
 
 ######################################################
-Tarvitset scriptin ajamiseen joko MS Excelin tai [Pythonin](https://www.python.org/downloads/), sekä Google-tilin online tallennusta varten.
+<br>Tarvitset scriptin ajamiseen joko MS Excelin tai [Pythonin](https://www.python.org/downloads/), sekä Google-tilin online tallennusta varten.
 
-Vaihtoehtoisesti voit myös [luoda kuntakartan nettiselaimessa](https://repl.it/FNVg/0) ilman mitään asennuksia, mutta joudut kopioimaan outputin käsin ja myös kml-tiedoston luominen täytyy tehdä manuaalisesti.
+Vaihtoehtoisesti voit myös [luoda kuntakartan nettiselaimessa](https://repl.it/FNVg/0) ilman mitään asennuksia, mutta joudut kopioimaan outputin käsin ja myös kml-tiedoston luominen täytyy tehdä manuaalisesti.<br>
 #######################################################
 
 Perustuu Maanmittauslaitoksen aineistoon.
