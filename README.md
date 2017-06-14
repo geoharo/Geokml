@@ -11,22 +11,20 @@ Suomen kuntarajat, graticulet ja reittipisteet - Geocaching kml map
 
 
 
-Tältä GitHub-tililtä löydät Geokml.xlsm -tiedoston käyttöohjeineen.
-Oman kuntakartan tekemiseen tarvitset Microsoft Excelin ja Google-tilin kartan tallentamista varten.
+Tästä GitHub-reposta löydät tarvittavat välineet ja ohjeet löytöjen mukaan väritetyn kuntakartan ja graticulekartan luomiseen sekä reittipisteiden lisäämiseen Google Mapsiin.
 
 ######################################################
-<br><b>PÄIVITYS 18.01.2017</b>
-Nyt kuntakartan väritys onnistuu myös ilman Exceliä.
+Tarvitset scriptin ajamiseen joko MS Excelin tai [Pythonin](https://www.python.org/downloads/), sekä Google-tilin online tallennusta varten.
 
-Lataa [Kuntarajat.py](https://github.com/geoharo/Geokml/blob/master/Kuntarajat.py). Asenna [Python](https://www.python.org/downloads/), liitä tekstieditorilla muokaten oma löytötaulukko paikkakunnittain, tallenna muutokset ja aja tiedosto. Scripti luo samaan polkuun valmiin Kuntarajat.kml -tiedoston. [Pythonscriptin ohje](https://github.com/geoharo/Geokml/blob/master/PythonscriptOhje.pdf)
-
-Vaihtoehtoisesti voit [ajaa scriptin nettiselaimessa](https://repl.it/FNVg/0) ilman mitään asennuksia, mutta joudut kopioimaan outputin käsin ja kml-tiedoston luominen täytyy tehdä manuaalisesti.
+Vaihtoehtoisesti voit myös [luoda kuntakartan nettiselaimessa](https://repl.it/FNVg/0) ilman mitään asennuksia, mutta joudut kopioimaan outputin käsin ja myös kml-tiedoston luominen täytyy tehdä manuaalisesti.
 #######################################################
 
 Perustuu Maanmittauslaitoksen aineistoon.
 
 
 Maanmittauslaitoksen kuntarajat WMS-palveluna (esimerkiksi Locus Map -sovellukseen) – WMS-url: http://avoindata.maanmittauslaitos.fi/geoserver/ows?service=wms&version=1.1.1&request=GetCapabilities
+
+Katso myös [GeoUserscripts](https://openuserjs.org/users/geoharo/scripts)
 
 
 Tarvittaessa [ota yhteyttä!](https://www.geocaching.com/email/?guid=d30ee7cc-018f-4e64-a4b1-06c4011e4f63)
