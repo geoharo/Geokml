@@ -416,4 +416,5 @@ tiedostonimi = "Reittipisteet.kml"
 with open(tiedostonimi, "w", encoding='utf-8') as f:
     f.write(kml)
 print(tiedostonimi,"Done!")
+input()
 

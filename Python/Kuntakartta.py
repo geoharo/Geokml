@@ -39883,3 +39883,4 @@ with open(tiedosto, "w") as f:
     f.write(kuntarajat)
 print(kuntarajat)
 print('VALMIS')
+input()

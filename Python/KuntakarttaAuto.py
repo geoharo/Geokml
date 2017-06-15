@@ -39887,3 +39887,4 @@ with open(tiedostonimi, "w") as f:
     f.write(Kunnat2017)
 #print(Kunnat2017)
 print(tiedostonimi,'Done!')
+input()
