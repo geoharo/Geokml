@@ -4,7 +4,7 @@
 		<name>Kuntarajat 2017</name>					
 		<Placemark>					
 			<name>Nousiainen</name>				
-			<description><![CDATA[#Nousiainen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -16,8 +16,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Orip‰‰</name>				
-			<description><![CDATA[#Orip‰‰#]]></description>				
+			<name>Orip√§√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30,7 +30,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Espoo</name>				
-			<description><![CDATA[#Espoo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -301,7 +301,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Tuusula</name>				
-			<description><![CDATA[#Tuusula#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -314,7 +314,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lumparland</name>				
-			<description><![CDATA[#Lumparland#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -401,7 +401,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hanko</name>				
-			<description><![CDATA[#Hanko#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -872,7 +872,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Rovaniemi</name>				
-			<description><![CDATA[#Rovaniemi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -885,7 +885,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Geta</name>				
-			<description><![CDATA[#Geta#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -1091,8 +1091,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>R‰‰kkyl‰</name>				
-			<description><![CDATA[#R‰‰kkyl‰#]]></description>				
+			<name>R√§√§kkyl√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1104,8 +1104,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>J‰ms‰</name>				
-			<description><![CDATA[#J‰ms‰#]]></description>				
+			<name>J√§ms√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1118,7 +1118,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pornainen</name>				
-			<description><![CDATA[#Pornainen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1130,8 +1130,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Vierem‰</name>				
-			<description><![CDATA[#Vierem‰#]]></description>				
+			<name>Vierem√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1144,7 +1144,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kouvola</name>				
-			<description><![CDATA[#Kouvola#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -1157,7 +1157,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Naantali</name>				
-			<description><![CDATA[#Naantali#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -2036,7 +2036,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Tuusniemi</name>				
-			<description><![CDATA[#Tuusniemi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -2049,7 +2049,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kokkola</name>				
-			<description><![CDATA[#Kokkola#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -2399,8 +2399,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>VÂrdˆ</name>				
-			<description><![CDATA[#VÂrdˆ#]]></description>				
+			<name>V√•rd√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -3543,7 +3543,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Vantaa</name>				
-			<description><![CDATA[#Vantaa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -3556,7 +3556,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Viitasaari</name>				
-			<description><![CDATA[#Viitasaari#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -3569,7 +3569,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pomarkku</name>				
-			<description><![CDATA[#Pomarkku#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -3582,7 +3582,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lemland</name>				
-			<description><![CDATA[#Lemland#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -4101,7 +4101,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Harjavalta</name>				
-			<description><![CDATA[#Harjavalta#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4114,7 +4114,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hartola</name>				
-			<description><![CDATA[#Hartola#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4127,7 +4127,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Punkalaidun</name>				
-			<description><![CDATA[#Punkalaidun#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4140,7 +4140,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Juupajoki</name>				
-			<description><![CDATA[#Juupajoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4153,7 +4153,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lappeenranta</name>				
-			<description><![CDATA[#Lappeenranta#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4165,8 +4165,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>J‰rvenp‰‰</name>				
-			<description><![CDATA[#J‰rvenp‰‰#]]></description>				
+			<name>J√§rvenp√§√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4179,7 +4179,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Laukaa</name>				
-			<description><![CDATA[#Laukaa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4192,7 +4192,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Eura</name>				
-			<description><![CDATA[#Eura#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4205,7 +4205,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Keitele</name>				
-			<description><![CDATA[#Keitele#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -4218,7 +4218,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Inkoo</name>				
-			<description><![CDATA[#Inkoo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -4889,7 +4889,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Raasepori</name>				
-			<description><![CDATA[#Raasepori#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -6240,7 +6240,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kangasala</name>				
-			<description><![CDATA[#Kangasala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6253,7 +6253,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hankasalmi</name>				
-			<description><![CDATA[#Hankasalmi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6266,7 +6266,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Karkkila</name>				
-			<description><![CDATA[#Karkkila#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6279,7 +6279,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hamina</name>				
-			<description><![CDATA[#Hamina#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -6893,8 +6893,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Myn‰m‰ki</name>				
-			<description><![CDATA[#Myn‰m‰ki#]]></description>				
+			<name>Myn√§m√§ki</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6907,7 +6907,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hailuoto</name>				
-			<description><![CDATA[#Hailuoto#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6919,8 +6919,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Lappaj‰rvi</name>				
-			<description><![CDATA[#Lappaj‰rvi#]]></description>				
+			<name>Lappaj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6933,7 +6933,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Posio</name>				
-			<description><![CDATA[#Posio#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6946,7 +6946,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Keuruu</name>				
-			<description><![CDATA[#Keuruu#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6959,7 +6959,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Askola</name>				
-			<description><![CDATA[#Askola#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -6972,7 +6972,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Salo</name>				
-			<description><![CDATA[#Salo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -7154,8 +7154,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pyh‰nt‰</name>				
-			<description><![CDATA[#Pyh‰nt‰#]]></description>				
+			<name>Pyh√§nt√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7168,7 +7168,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Koski Tl</name>				
-			<description><![CDATA[#Koski Tl#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7181,7 +7181,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pelkosenniemi</name>				
-			<description><![CDATA[#Pelkosenniemi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7194,7 +7194,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kemi</name>				
-			<description><![CDATA[#Kemi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -7305,7 +7305,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Nivala</name>				
-			<description><![CDATA[#Nivala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7317,8 +7317,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pˆyty‰</name>				
-			<description><![CDATA[#Pˆyty‰#]]></description>				
+			<name>P√∂yty√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7331,7 +7331,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Uusikaarlepyy</name>				
-			<description><![CDATA[#Uusikaarlepyy#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -7722,7 +7722,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kerava</name>				
-			<description><![CDATA[#Kerava#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7735,7 +7735,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Iisalmi</name>				
-			<description><![CDATA[#Iisalmi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7747,8 +7747,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Haapaj‰rvi</name>				
-			<description><![CDATA[#Haapaj‰rvi#]]></description>				
+			<name>Haapaj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7760,8 +7760,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Lepp‰virta</name>				
-			<description><![CDATA[#Lepp‰virta#]]></description>				
+			<name>Lepp√§virta</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7773,8 +7773,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Hyvink‰‰</name>				
-			<description><![CDATA[#Hyvink‰‰#]]></description>				
+			<name>Hyvink√§√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7787,7 +7787,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Sastamala</name>				
-			<description><![CDATA[#Sastamala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7800,7 +7800,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Siikalatva</name>				
-			<description><![CDATA[#Siikalatva#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7813,7 +7813,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Iitti</name>				
-			<description><![CDATA[#Iitti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7826,7 +7826,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ikaalinen</name>				
-			<description><![CDATA[#Ikaalinen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7838,8 +7838,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Merij‰rvi</name>				
-			<description><![CDATA[#Merij‰rvi#]]></description>				
+			<name>Merij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7852,7 +7852,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Mikkeli</name>				
-			<description><![CDATA[#Mikkeli#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7865,7 +7865,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pielavesi</name>				
-			<description><![CDATA[#Pielavesi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -7878,7 +7878,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Vaasa</name>				
-			<description><![CDATA[#Vaasa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -8277,7 +8277,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Alavieska</name>				
-			<description><![CDATA[#Alavieska#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8289,8 +8289,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pieks‰m‰ki</name>				
-			<description><![CDATA[#Pieks‰m‰ki#]]></description>				
+			<name>Pieks√§m√§ki</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8303,7 +8303,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Maarianhamina</name>				
-			<description><![CDATA[#Maarianhamina#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -8334,7 +8334,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kuhmoinen</name>				
-			<description><![CDATA[#Kuhmoinen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8347,7 +8347,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kannonkoski</name>				
-			<description><![CDATA[#Kannonkoski#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8359,8 +8359,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>P‰lk‰ne</name>				
-			<description><![CDATA[#P‰lk‰ne#]]></description>				
+			<name>P√§lk√§ne</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -8373,7 +8373,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kaskinen</name>				
-			<description><![CDATA[#Kaskinen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -8404,7 +8404,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Porvoo</name>				
-			<description><![CDATA[#Porvoo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -9203,7 +9203,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lumijoki</name>				
-			<description><![CDATA[#Lumijoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -9216,7 +9216,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Simo</name>				
-			<description><![CDATA[#Simo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -9311,7 +9311,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kumlinge</name>				
-			<description><![CDATA[#Kumlinge#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -10382,7 +10382,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Saltvik</name>				
-			<description><![CDATA[#Saltvik#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -10909,7 +10909,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Turku</name>				
-			<description><![CDATA[#Turku#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -11020,7 +11020,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pertunmaa</name>				
-			<description><![CDATA[#Pertunmaa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11033,7 +11033,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kangasniemi</name>				
-			<description><![CDATA[#Kangasniemi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11046,7 +11046,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Joutsa</name>				
-			<description><![CDATA[#Joutsa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11059,7 +11059,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kruunupyy</name>				
-			<description><![CDATA[#Kruunupyy#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -11090,7 +11090,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kauhava</name>				
-			<description><![CDATA[#Kauhava#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11103,7 +11103,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ilmajoki</name>				
-			<description><![CDATA[#Ilmajoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11116,7 +11116,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kempele</name>				
-			<description><![CDATA[#Kempele#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11128,8 +11128,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Miehikk‰l‰</name>				
-			<description><![CDATA[#Miehikk‰l‰#]]></description>				
+			<name>Miehikk√§l√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11142,7 +11142,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Merikarvia</name>				
-			<description><![CDATA[#Merikarvia#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -11428,8 +11428,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Hein‰vesi</name>				
-			<description><![CDATA[#Hein‰vesi#]]></description>				
+			<name>Hein√§vesi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -11442,7 +11442,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Rauma</name>				
-			<description><![CDATA[#Rauma#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -11768,8 +11768,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Fˆglˆ</name>				
-			<description><![CDATA[#Fˆglˆ#]]></description>				
+			<name>F√∂gl√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -12944,7 +12944,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Uurainen</name>				
-			<description><![CDATA[#Uurainen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -12957,7 +12957,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kaustinen</name>				
-			<description><![CDATA[#Kaustinen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -12969,8 +12969,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Jyv‰skyl‰</name>				
-			<description><![CDATA[#Jyv‰skyl‰#]]></description>				
+			<name>Jyv√§skyl√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -12982,8 +12982,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kyyj‰rvi</name>				
-			<description><![CDATA[#Kyyj‰rvi#]]></description>				
+			<name>Kyyj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -12996,7 +12996,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Janakkala</name>				
-			<description><![CDATA[#Janakkala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13009,7 +13009,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Salla</name>				
-			<description><![CDATA[#Salla#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13021,8 +13021,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Utaj‰rvi</name>				
-			<description><![CDATA[#Utaj‰rvi#]]></description>				
+			<name>Utaj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13034,8 +13034,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pyh‰joki</name>				
-			<description><![CDATA[#Pyh‰joki#]]></description>				
+			<name>Pyh√§joki</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -13058,7 +13058,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Muhos</name>				
-			<description><![CDATA[#Muhos#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13071,7 +13071,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Tervola</name>				
-			<description><![CDATA[#Tervola#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13083,8 +13083,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Saarij‰rvi</name>				
-			<description><![CDATA[#Saarij‰rvi#]]></description>				
+			<name>Saarij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13096,8 +13096,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Sodankyl‰</name>				
-			<description><![CDATA[#Sodankyl‰#]]></description>				
+			<name>Sodankyl√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13110,7 +13110,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Loimaa</name>				
-			<description><![CDATA[#Loimaa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13123,7 +13123,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hollola</name>				
-			<description><![CDATA[#Hollola#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13135,8 +13135,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>N‰rpiˆ</name>				
-			<description><![CDATA[#N‰rpiˆ#]]></description>				
+			<name>N√§rpi√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -13503,7 +13503,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Taivassalo</name>				
-			<description><![CDATA[#Taivassalo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -13725,8 +13725,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kittil‰</name>				
-			<description><![CDATA[#Kittil‰#]]></description>				
+			<name>Kittil√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13739,7 +13739,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Sievi</name>				
-			<description><![CDATA[#Sievi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13751,8 +13751,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Sonkaj‰rvi</name>				
-			<description><![CDATA[#Sonkaj‰rvi#]]></description>				
+			<name>Sonkaj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13764,8 +13764,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Nurmij‰rvi</name>				
-			<description><![CDATA[#Nurmij‰rvi#]]></description>				
+			<name>Nurmij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13778,7 +13778,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lieksa</name>				
-			<description><![CDATA[#Lieksa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13791,7 +13791,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lieto</name>				
-			<description><![CDATA[#Lieto#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13803,8 +13803,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>K‰rkˆl‰</name>				
-			<description><![CDATA[#K‰rkˆl‰#]]></description>				
+			<name>K√§rk√∂l√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -13817,7 +13817,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kustavi</name>				
-			<description><![CDATA[#Kustavi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -14448,7 +14448,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pietarsaari</name>				
-			<description><![CDATA[#Pietarsaari#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -14511,7 +14511,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Juuka</name>				
-			<description><![CDATA[#Juuka#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14524,7 +14524,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Siuntio</name>				
-			<description><![CDATA[#Siuntio#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -14563,7 +14563,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ylitornio</name>				
-			<description><![CDATA[#Ylitornio#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14575,8 +14575,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kokem‰ki</name>				
-			<description><![CDATA[#Kokem‰ki#]]></description>				
+			<name>Kokem√§ki</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14589,7 +14589,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Nakkila</name>				
-			<description><![CDATA[#Nakkila#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14602,7 +14602,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Joensuu</name>				
-			<description><![CDATA[#Joensuu#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -14615,7 +14615,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Siikajoki</name>				
-			<description><![CDATA[#Siikajoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -14646,7 +14646,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Uusikaupunki</name>				
-			<description><![CDATA[#Uusikaupunki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -15677,7 +15677,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Virrat</name>				
-			<description><![CDATA[#Virrat#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15690,7 +15690,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Savukoski</name>				
-			<description><![CDATA[#Savukoski#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15703,7 +15703,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Toholampi</name>				
-			<description><![CDATA[#Toholampi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15716,7 +15716,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kuhmo</name>				
-			<description><![CDATA[#Kuhmo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15729,7 +15729,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kuusamo</name>				
-			<description><![CDATA[#Kuusamo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15742,7 +15742,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Urjala</name>				
-			<description><![CDATA[#Urjala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15755,7 +15755,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Tammela</name>				
-			<description><![CDATA[#Tammela#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15768,7 +15768,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Parkano</name>				
-			<description><![CDATA[#Parkano#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15781,7 +15781,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Soini</name>				
-			<description><![CDATA[#Soini#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -15794,7 +15794,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Parainen</name>				
-			<description><![CDATA[#Parainen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22273,7 +22273,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kinnula</name>				
-			<description><![CDATA[#Kinnula#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22286,7 +22286,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Enonkoski</name>				
-			<description><![CDATA[#Enonkoski#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22299,7 +22299,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Sipoo</name>				
-			<description><![CDATA[#Sipoo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22554,7 +22554,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Sauvo</name>				
-			<description><![CDATA[#Sauvo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22640,8 +22640,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Myrskyl‰</name>				
-			<description><![CDATA[#Myrskyl‰#]]></description>				
+			<name>Myrskyl√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22654,7 +22654,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Laihia</name>				
-			<description><![CDATA[#Laihia#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22667,7 +22667,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kolari</name>				
-			<description><![CDATA[#Kolari#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22679,8 +22679,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Finstrˆm</name>				
-			<description><![CDATA[#Finstrˆm#]]></description>				
+			<name>Finstr√∂m</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22735,7 +22735,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Outokumpu</name>				
-			<description><![CDATA[#Outokumpu#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22748,7 +22748,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kuortane</name>				
-			<description><![CDATA[#Kuortane#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22761,7 +22761,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Inari</name>				
-			<description><![CDATA[#Inari#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22774,7 +22774,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Sund</name>				
-			<description><![CDATA[#Sund#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -22869,7 +22869,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lemi</name>				
-			<description><![CDATA[#Lemi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22882,7 +22882,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kuopio</name>				
-			<description><![CDATA[#Kuopio#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22895,7 +22895,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Marttila</name>				
-			<description><![CDATA[#Marttila#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22908,7 +22908,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Jokioinen</name>				
-			<description><![CDATA[#Jokioinen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22921,7 +22921,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Taipalsaari</name>				
-			<description><![CDATA[#Taipalsaari#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22934,7 +22934,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Juva</name>				
-			<description><![CDATA[#Juva#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22947,7 +22947,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Vihti</name>				
-			<description><![CDATA[#Vihti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22960,7 +22960,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Nokia</name>				
-			<description><![CDATA[#Nokia#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22973,7 +22973,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hirvensalmi</name>				
-			<description><![CDATA[#Hirvensalmi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22986,7 +22986,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Perho</name>				
-			<description><![CDATA[#Perho#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -22999,7 +22999,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kitee</name>				
-			<description><![CDATA[#Kitee#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -23012,7 +23012,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kiuruvesi</name>				
-			<description><![CDATA[#Kiuruvesi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -23025,7 +23025,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Maalahti</name>				
-			<description><![CDATA[#Maalahti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -23983,8 +23983,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>K‰rs‰m‰ki</name>				
-			<description><![CDATA[#K‰rs‰m‰ki#]]></description>				
+			<name>K√§rs√§m√§ki</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -23997,7 +23997,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Puolanka</name>				
-			<description><![CDATA[#Puolanka#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24009,8 +24009,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Siilinj‰rvi</name>				
-			<description><![CDATA[#Siilinj‰rvi#]]></description>				
+			<name>Siilinj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24023,7 +24023,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pello</name>				
-			<description><![CDATA[#Pello#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24036,7 +24036,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Siikainen</name>				
-			<description><![CDATA[#Siikainen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24049,7 +24049,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Parikkala</name>				
-			<description><![CDATA[#Parikkala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24061,8 +24061,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pet‰j‰vesi</name>				
-			<description><![CDATA[#Pet‰j‰vesi#]]></description>				
+			<name>Pet√§j√§vesi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24075,7 +24075,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Alavus</name>				
-			<description><![CDATA[#Alavus#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24088,7 +24088,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Oulainen</name>				
-			<description><![CDATA[#Oulainen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24101,7 +24101,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Vesilahti</name>				
-			<description><![CDATA[#Vesilahti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24114,7 +24114,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Rantasalmi</name>				
-			<description><![CDATA[#Rantasalmi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24126,8 +24126,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kivij‰rvi</name>				
-			<description><![CDATA[#Kivij‰rvi#]]></description>				
+			<name>Kivij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -24139,8 +24139,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kemiˆnsaari</name>				
-			<description><![CDATA[#Kemiˆnsaari#]]></description>				
+			<name>Kemi√∂nsaari</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -26667,7 +26667,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Imatra</name>				
-			<description><![CDATA[#Imatra#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26680,7 +26680,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Karstula</name>				
-			<description><![CDATA[#Karstula#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26692,8 +26692,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Lapinj‰rvi</name>				
-			<description><![CDATA[#Lapinj‰rvi#]]></description>				
+			<name>Lapinj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26705,8 +26705,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>ƒ‰nekoski</name>				
-			<description><![CDATA[#ƒ‰nekoski#]]></description>				
+			<name>√Ñ√§nekoski</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26718,8 +26718,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Alaj‰rvi</name>				
-			<description><![CDATA[#Alaj‰rvi#]]></description>				
+			<name>Alaj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26732,7 +26732,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Savitaipale</name>				
-			<description><![CDATA[#Savitaipale#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -26745,7 +26745,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Mustasaari</name>				
-			<description><![CDATA[#Mustasaari#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -27888,7 +27888,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hammarland</name>				
-			<description><![CDATA[#Hammarland#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -28359,7 +28359,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Muurame</name>				
-			<description><![CDATA[#Muurame#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28372,7 +28372,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Isojoki</name>				
-			<description><![CDATA[#Isojoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28385,7 +28385,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Orimattila</name>				
-			<description><![CDATA[#Orimattila#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28398,7 +28398,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Joroinen</name>				
-			<description><![CDATA[#Joroinen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28410,8 +28410,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kankaanp‰‰</name>				
-			<description><![CDATA[#Kankaanp‰‰#]]></description>				
+			<name>Kankaanp√§√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28424,7 +28424,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Varkaus</name>				
-			<description><![CDATA[#Varkaus#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28437,7 +28437,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Vehmaa</name>				
-			<description><![CDATA[#Vehmaa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -28459,8 +28459,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>M‰ntyharju</name>				
-			<description><![CDATA[#M‰ntyharju#]]></description>				
+			<name>M√§ntyharju</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28473,7 +28473,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Veteli</name>				
-			<description><![CDATA[#Veteli#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28486,7 +28486,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Suomussalmi</name>				
-			<description><![CDATA[#Suomussalmi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28499,7 +28499,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Rautalampi</name>				
-			<description><![CDATA[#Rautalampi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28512,7 +28512,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Helsinki</name>				
-			<description><![CDATA[#Helsinki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -28926,8 +28926,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kemij‰rvi</name>				
-			<description><![CDATA[#Kemij‰rvi#]]></description>				
+			<name>Kemij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28940,7 +28940,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Forssa</name>				
-			<description><![CDATA[#Forssa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -28953,7 +28953,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kotka</name>				
-			<description><![CDATA[#Kotka#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -29536,7 +29536,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pirkkala</name>				
-			<description><![CDATA[#Pirkkala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29549,7 +29549,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Asikkala</name>				
-			<description><![CDATA[#Asikkala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29562,7 +29562,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Vaala</name>				
-			<description><![CDATA[#Vaala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29575,7 +29575,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kaavi</name>				
-			<description><![CDATA[#Kaavi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29588,7 +29588,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kauhajoki</name>				
-			<description><![CDATA[#Kauhajoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29601,7 +29601,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Aura</name>				
-			<description><![CDATA[#Aura#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29614,7 +29614,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Suonenjoki</name>				
-			<description><![CDATA[#Suonenjoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29627,7 +29627,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Huittinen</name>				
-			<description><![CDATA[#Huittinen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29639,8 +29639,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Hausj‰rvi</name>				
-			<description><![CDATA[#Hausj‰rvi#]]></description>				
+			<name>Hausj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29652,8 +29652,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Sein‰joki</name>				
-			<description><![CDATA[#Sein‰joki#]]></description>				
+			<name>Sein√§joki</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29666,7 +29666,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ruokolahti</name>				
-			<description><![CDATA[#Ruokolahti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -29679,7 +29679,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Oulu</name>				
-			<description><![CDATA[#Oulu#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -29773,8 +29773,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Korsn‰s</name>				
-			<description><![CDATA[#Korsn‰s#]]></description>				
+			<name>Korsn√§s</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -30020,8 +30020,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Evij‰rvi</name>				
-			<description><![CDATA[#Evij‰rvi#]]></description>				
+			<name>Evij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30033,8 +30033,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Reisj‰rvi</name>				
-			<description><![CDATA[#Reisj‰rvi#]]></description>				
+			<name>Reisj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30047,7 +30047,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Tornio</name>				
-			<description><![CDATA[#Tornio#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -30142,7 +30142,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Halsua</name>				
-			<description><![CDATA[#Halsua#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30154,8 +30154,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pudasj‰rvi</name>				
-			<description><![CDATA[#Pudasj‰rvi#]]></description>				
+			<name>Pudasj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30168,7 +30168,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Sulkava</name>				
-			<description><![CDATA[#Sulkava#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30180,8 +30180,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Lemp‰‰l‰</name>				
-			<description><![CDATA[#Lemp‰‰l‰#]]></description>				
+			<name>Lemp√§√§l√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30194,7 +30194,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ranua</name>				
-			<description><![CDATA[#Ranua#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30207,7 +30207,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Virolahti</name>				
-			<description><![CDATA[#Virolahti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -30485,8 +30485,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Lestij‰rvi</name>				
-			<description><![CDATA[#Lestij‰rvi#]]></description>				
+			<name>Lestij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30499,7 +30499,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lapinlahti</name>				
-			<description><![CDATA[#Lapinlahti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30512,7 +30512,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ruovesi</name>				
-			<description><![CDATA[#Ruovesi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30525,7 +30525,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Haapavesi</name>				
-			<description><![CDATA[#Haapavesi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30538,7 +30538,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Nurmes</name>				
-			<description><![CDATA[#Nurmes#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30551,7 +30551,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Vimpeli</name>				
-			<description><![CDATA[#Vimpeli#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30563,8 +30563,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>M‰nts‰l‰</name>				
-			<description><![CDATA[#M‰nts‰l‰#]]></description>				
+			<name>M√§nts√§l√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30577,7 +30577,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Padasjoki</name>				
-			<description><![CDATA[#Padasjoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30590,7 +30590,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kalajoki</name>				
-			<description><![CDATA[#Kalajoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -30773,7 +30773,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Savonlinna</name>				
-			<description><![CDATA[#Savonlinna#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30785,8 +30785,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Isokyrˆ</name>				
-			<description><![CDATA[#Isokyrˆ#]]></description>				
+			<name>Isokyr√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30799,7 +30799,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kurikka</name>				
-			<description><![CDATA[#Kurikka#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30812,7 +30812,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Orivesi</name>				
-			<description><![CDATA[#Orivesi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30824,8 +30824,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kihniˆ</name>				
-			<description><![CDATA[#Kihniˆ#]]></description>				
+			<name>Kihni√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -30838,7 +30838,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Luoto</name>				
-			<description><![CDATA[#Luoto#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -31252,8 +31252,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>ƒht‰ri</name>				
-			<description><![CDATA[#ƒht‰ri#]]></description>				
+			<name>√Ñht√§ri</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -31265,8 +31265,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Luum‰ki</name>				
-			<description><![CDATA[#Luum‰ki#]]></description>				
+			<name>Luum√§ki</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -31279,7 +31279,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Tampere</name>				
-			<description><![CDATA[#Tampere#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -31292,7 +31292,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Jomala</name>				
-			<description><![CDATA[#Jomala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -31458,8 +31458,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Br‰ndˆ</name>				
-			<description><![CDATA[#Br‰ndˆ#]]></description>				
+			<name>Br√§nd√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -33081,8 +33081,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>S‰kyl‰</name>				
-			<description><![CDATA[#S‰kyl‰#]]></description>				
+			<name>S√§kyl√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33095,7 +33095,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Valkeakoski</name>				
-			<description><![CDATA[#Valkeakoski#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33108,7 +33108,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pukkila</name>				
-			<description><![CDATA[#Pukkila#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33121,7 +33121,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ylivieska</name>				
-			<description><![CDATA[#Ylivieska#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33134,7 +33134,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Liperi</name>				
-			<description><![CDATA[#Liperi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33146,8 +33146,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Eckerˆ</name>				
-			<description><![CDATA[#Eckerˆ#]]></description>				
+			<name>Ecker√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -33458,7 +33458,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Puumala</name>				
-			<description><![CDATA[#Puumala#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33471,7 +33471,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lahti</name>				
-			<description><![CDATA[#Lahti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33483,8 +33483,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Yp‰j‰</name>				
-			<description><![CDATA[#Yp‰j‰#]]></description>				
+			<name>Yp√§j√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33497,7 +33497,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Honkajoki</name>				
-			<description><![CDATA[#Honkajoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33510,7 +33510,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kajaani</name>				
-			<description><![CDATA[#Kajaani#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33523,7 +33523,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ii</name>				
-			<description><![CDATA[#Ii#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -33626,7 +33626,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ilomantsi</name>				
-			<description><![CDATA[#Ilomantsi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33638,8 +33638,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>J‰mij‰rvi</name>				
-			<description><![CDATA[#J‰mij‰rvi#]]></description>				
+			<name>J√§mij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -33652,7 +33652,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Sottunga</name>				
-			<description><![CDATA[#Sottunga#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -34259,7 +34259,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Masku</name>				
-			<description><![CDATA[#Masku#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -34345,8 +34345,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>Enontekiˆ</name>				
-			<description><![CDATA[#Enontekiˆ#]]></description>				
+			<name>Enonteki√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -34359,7 +34359,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Raahe</name>				
-			<description><![CDATA[#Raahe#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -34406,7 +34406,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Loviisa</name>				
-			<description><![CDATA[#Loviisa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -35221,7 +35221,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Akaa</name>				
-			<description><![CDATA[#Akaa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35234,7 +35234,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hyrynsalmi</name>				
-			<description><![CDATA[#Hyrynsalmi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35247,7 +35247,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Laitila</name>				
-			<description><![CDATA[#Laitila#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35259,8 +35259,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Rautj‰rvi</name>				
-			<description><![CDATA[#Rautj‰rvi#]]></description>				
+			<name>Rautj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35273,7 +35273,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kauniainen</name>				
-			<description><![CDATA[#Kauniainen#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35286,7 +35286,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Hattula</name>				
-			<description><![CDATA[#Hattula#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35299,7 +35299,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Karijoki</name>				
-			<description><![CDATA[#Karijoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35311,8 +35311,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>M‰ntt‰-Vilppula</name>				
-			<description><![CDATA[#M‰ntt‰-Vilppula#]]></description>				
+			<name>M√§ntt√§-Vilppula</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35325,7 +35325,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Somero</name>				
-			<description><![CDATA[#Somero#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35338,7 +35338,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Liminka</name>				
-			<description><![CDATA[#Liminka#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35350,8 +35350,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Ylˆj‰rvi</name>				
-			<description><![CDATA[#Ylˆj‰rvi#]]></description>				
+			<name>Yl√∂j√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35363,8 +35363,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Vˆyri</name>				
-			<description><![CDATA[#Vˆyri#]]></description>				
+			<name>V√∂yri</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -35835,7 +35835,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Tervo</name>				
-			<description><![CDATA[#Tervo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35848,7 +35848,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kannus</name>				
-			<description><![CDATA[#Kannus#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35860,8 +35860,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Polvij‰rvi</name>				
-			<description><![CDATA[#Polvij‰rvi#]]></description>				
+			<name>Polvij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35874,7 +35874,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Teuva</name>				
-			<description><![CDATA[#Teuva#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35887,7 +35887,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Utsjoki</name>				
-			<description><![CDATA[#Utsjoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35900,7 +35900,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Rautavaara</name>				
-			<description><![CDATA[#Rautavaara#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -35912,8 +35912,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pyht‰‰</name>				
-			<description><![CDATA[#Pyht‰‰#]]></description>				
+			<name>Pyht√§√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -36207,8 +36207,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>H‰meenlinna</name>				
-			<description><![CDATA[#H‰meenlinna#]]></description>				
+			<name>H√§meenlinna</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36220,8 +36220,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pyh‰j‰rvi</name>				
-			<description><![CDATA[#Pyh‰j‰rvi#]]></description>				
+			<name>Pyh√§j√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36234,7 +36234,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kaarina</name>				
-			<description><![CDATA[#Kaarina#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -36297,7 +36297,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Valtimo</name>				
-			<description><![CDATA[#Valtimo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36309,8 +36309,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pyh‰ranta</name>				
-			<description><![CDATA[#Pyh‰ranta#]]></description>				
+			<name>Pyh√§ranta</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -36397,7 +36397,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Raisio</name>				
-			<description><![CDATA[#Raisio#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36410,7 +36410,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Eurajoki</name>				
-			<description><![CDATA[#Eurajoki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -36832,8 +36832,8 @@
 			</MultiGeometry>				
 		</Placemark>					
 		<Placemark>					
-			<name>H‰meenkyrˆ</name>				
-			<description><![CDATA[#H‰meenkyrˆ#]]></description>				
+			<name>H√§meenkyr√∂</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36845,8 +36845,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Tyrn‰v‰</name>				
-			<description><![CDATA[#Tyrn‰v‰#]]></description>				
+			<name>Tyrn√§v√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36859,7 +36859,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pihtipudas</name>				
-			<description><![CDATA[#Pihtipudas#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36872,7 +36872,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Luhanka</name>				
-			<description><![CDATA[#Luhanka#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36884,8 +36884,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Riihim‰ki</name>				
-			<description><![CDATA[#Riihim‰ki#]]></description>				
+			<name>Riihim√§ki</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36898,7 +36898,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Vesanto</name>				
-			<description><![CDATA[#Vesanto#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36911,7 +36911,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Ulvila</name>				
-			<description><![CDATA[#Ulvila#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36924,7 +36924,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Toivakka</name>				
-			<description><![CDATA[#Toivakka#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36937,7 +36937,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Loppi</name>				
-			<description><![CDATA[#Loppi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -36950,7 +36950,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Pori</name>				
-			<description><![CDATA[#Pori#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -37477,7 +37477,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Sotkamo</name>				
-			<description><![CDATA[#Sotkamo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37490,7 +37490,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Humppila</name>				
-			<description><![CDATA[#Humppila#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37503,7 +37503,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Taivalkoski</name>				
-			<description><![CDATA[#Taivalkoski#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37516,7 +37516,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Rusko</name>				
-			<description><![CDATA[#Rusko#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37528,8 +37528,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Pedersˆren kunta</name>				
-			<description><![CDATA[#Pedersˆren kunta#]]></description>				
+			<name>Peders√∂ren kunta</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -37608,7 +37608,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Konnevesi</name>				
-			<description><![CDATA[#Konnevesi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37621,7 +37621,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kontiolahti</name>				
-			<description><![CDATA[#Kontiolahti#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37634,7 +37634,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Keminmaa</name>				
-			<description><![CDATA[#Keminmaa#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -37647,7 +37647,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kirkkonummi</name>				
-			<description><![CDATA[#Kirkkonummi#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -38118,7 +38118,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Paltamo</name>				
-			<description><![CDATA[#Paltamo#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38130,8 +38130,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Sysm‰</name>				
-			<description><![CDATA[#Sysm‰#]]></description>				
+			<name>Sysm√§</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38143,8 +38143,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Tohmaj‰rvi</name>				
-			<description><![CDATA[#Tohmaj‰rvi#]]></description>				
+			<name>Tohmaj√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38156,8 +38156,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Ristij‰rvi</name>				
-			<description><![CDATA[#Ristij‰rvi#]]></description>				
+			<name>Ristij√§rvi</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38170,7 +38170,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Multia</name>				
-			<description><![CDATA[#Multia#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38183,7 +38183,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lohja</name>				
-			<description><![CDATA[#Lohja#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38196,7 +38196,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Paimio</name>				
-			<description><![CDATA[#Paimio#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -38208,8 +38208,8 @@
 			</Polygon>				
 		</Placemark>					
 		<Placemark>					
-			<name>Kˆkar</name>				
-			<description><![CDATA[#Kˆkar#]]></description>				
+			<name>K√∂kar</name>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -39448,7 +39448,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Heinola</name>				
-			<description><![CDATA[#Heinola#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -39461,7 +39461,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Kristiinankaupunki</name>				
-			<description><![CDATA[#Kristiinankaupunki#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
@@ -39700,7 +39700,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Muonio</name>				
-			<description><![CDATA[#Muonio#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -39713,7 +39713,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Lapua</name>				
-			<description><![CDATA[#Lapua#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
@@ -39726,7 +39726,7 @@
 		</Placemark>					
 		<Placemark>					
 			<name>Karvia</name>				
-			<description><![CDATA[#Karvia#]]></description>				
+			<description><![CDATA[]]></description>				
 			<styleUrl>#poly-DB4436-1-64</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
