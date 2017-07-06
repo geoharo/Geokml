@@ -1,6 +1,6 @@
-// ==UserScript==
-// @name        Geocache.fi Kuntakartta to kml
-// @namespace   Geocache.fi Kuntakartta to kml
+﻿// ==UserScript==
+// @name        Kuntakartta to kml
+// @namespace   Kuntakartta to kml
 // @include     *://www.geocache.fi/stat/other/jakauma.php*
 // @require     https://raw.githubusercontent.com/eligrey/FileSaver.js/master/FileSaver.js
 // @version     1
