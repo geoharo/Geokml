@@ -2,6 +2,7 @@
 // @name        Kuntakartta to kml
 // @namespace   Geocache.fi Kuntakartta to kml
 // @include     *://www.geocache.fi/stat/other/jakauma.php*
+// @exclude     *://www.geocache.fi/stat/other/jakauma.php?kuntalista*
 // @require     https://raw.githubusercontent.com/eligrey/FileSaver.js/master/FileSaver.js
 // @version     1
 // @grant       none
@@ -53,7 +54,7 @@ function createkml(){
   xmlHttp.open("GET", "https://raw.githubusercontent.com/geoharo/Geokml/master/Firefox/Kuntarajat2017.kml", false ); // false for synchronous request
   xmlHttp.send(null);
   var kml = xmlHttp.responseText;
-
+  
   var re;
   var original;
   var replacement;
@@ -64,7 +65,7 @@ function createkml(){
     PAYLOAD = data[i][0] + data[i][1] + " Yht. " + data[i][15] + " //";
     if (data[i][15] != "0" && data[i][15] != "0%"){
       COLOR = "#poly-009D57-1-0";
-      findcount = findcount + 1;
+      findcount = findcount + 1;      
       for (ii = 2; ii < 15; ii++){
         if (data[i][ii] != "0" && data[i][ii] != "0%"){
           PAYLOAD = PAYLOAD + " " + sarakkeet[ii] + " " + data[i][ii] + " /";
@@ -76,7 +77,7 @@ function createkml(){
     re = "<name>" + data[i][1] + "</name>[^]*<\/styleUrl>";
     original = new RegExp(re, 'g');
     replacement = kml.match(original).toString().replace("CDATA[]","CDATA[" + PAYLOAD + "]").replace("<styleUrl>","<styleUrl>" + COLOR);
-    kml = kml.replace(original,replacement).replace("Kuntarajat 2017","Kuntarajat " + date);
+    kml = kml.replace(original,replacement).replace("Kuntakartta 2017","Kuntakartta " + date);    
   }
   var blob = new Blob([kml], {type: "text/plain;charset=utf-8"});
   saveAs(blob, "Kuntakartta.kml");
