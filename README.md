@@ -1,7 +1,7 @@
 # Geokml
 Suomen kuntarajat, graticulet ja reittipisteet - Geocaching kml map
 
-[![Esim.png](https://s9.postimg.org/a22x8bm5r/Esim.png)](https://postimg.org/image/4dwmhfht7/)
+[![Esim.png](https://raw.githubusercontent.com/geoharo/Geokml/master/MyMapsEsim.png)](https://raw.githubusercontent.com/geoharo/Geokml/master/MyMapsEsim.png)
 
 
 <b>[>>>Esimerkkikartta<<<](https://drive.google.com/open?id=114VJTemi07NH27FAre7fAtSISjk&usp=sharing)</b>
