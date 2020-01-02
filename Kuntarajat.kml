@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>							
 <kml xmlns='http://www.opengis.net/kml/2.2'>							
 	<Document>						
-		<name>Kuntakartta 1/2/2020</name>					
+		<name>Kuntarajat</name>					
 		<Style id="poly-000000-1200-77-normal">
 			<LineStyle>
 				<color>ff000000</color>
@@ -101,7 +101,7 @@
 		<Placemark>					
 			<name>Nousiainen</name>				
 			<description><![CDATA[Nousiainen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -114,7 +114,7 @@
 		<Placemark>					
 			<name>Oripää</name>				
 			<description><![CDATA[Oripää Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -127,7 +127,7 @@
 		<Placemark>					
 			<name>Espoo</name>				
 			<description><![CDATA[Espoo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -398,7 +398,7 @@
 		<Placemark>					
 			<name>Tuusula</name>				
 			<description><![CDATA[Tuusula Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -411,7 +411,7 @@
 		<Placemark>					
 			<name>Lumparland</name>				
 			<description><![CDATA[Lumparland Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -498,7 +498,7 @@
 		<Placemark>					
 			<name>Hanko</name>				
 			<description><![CDATA[Hanko Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -969,7 +969,7 @@
 		<Placemark>					
 			<name>Rovaniemi</name>				
 			<description><![CDATA[Rovaniemi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -982,7 +982,7 @@
 		<Placemark>					
 			<name>Geta</name>				
 			<description><![CDATA[Geta Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -1189,7 +1189,7 @@
 		<Placemark>					
 			<name>Rääkkylä</name>				
 			<description><![CDATA[Rääkkylä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -1202,7 +1202,7 @@
 		<Placemark>					
 			<name>Jämsä</name>				
 			<description><![CDATA[Jämsä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -1215,7 +1215,7 @@
 		<Placemark>					
 			<name>Pornainen</name>				
 			<description><![CDATA[Pornainen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -1228,7 +1228,7 @@
 		<Placemark>					
 			<name>Vieremä</name>				
 			<description><![CDATA[Vieremä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -1241,7 +1241,7 @@
 		<Placemark>					
 			<name>Kouvola</name>				
 			<description><![CDATA[Kouvola Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -1254,7 +1254,7 @@
 		<Placemark>					
 			<name>Naantali</name>				
 			<description><![CDATA[Naantali Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -2133,7 +2133,7 @@
 		<Placemark>					
 			<name>Tuusniemi</name>				
 			<description><![CDATA[Tuusniemi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -2146,7 +2146,7 @@
 		<Placemark>					
 			<name>Kokkola</name>				
 			<description><![CDATA[Kokkola Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -2497,7 +2497,7 @@
 		<Placemark>					
 			<name>Vårdö</name>				
 			<description><![CDATA[Vårdö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -3640,7 +3640,7 @@
 		<Placemark>					
 			<name>Vantaa</name>				
 			<description><![CDATA[Vantaa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -3653,7 +3653,7 @@
 		<Placemark>					
 			<name>Viitasaari</name>				
 			<description><![CDATA[Viitasaari Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -3666,7 +3666,7 @@
 		<Placemark>					
 			<name>Pomarkku</name>				
 			<description><![CDATA[Pomarkku Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -3679,7 +3679,7 @@
 		<Placemark>					
 			<name>Lemland</name>				
 			<description><![CDATA[Lemland Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -4198,7 +4198,7 @@
 		<Placemark>					
 			<name>Harjavalta</name>				
 			<description><![CDATA[Harjavalta Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4211,7 +4211,7 @@
 		<Placemark>					
 			<name>Hartola</name>				
 			<description><![CDATA[Hartola Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4224,7 +4224,7 @@
 		<Placemark>					
 			<name>Punkalaidun</name>				
 			<description><![CDATA[Punkalaidun Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4237,7 +4237,7 @@
 		<Placemark>					
 			<name>Juupajoki</name>				
 			<description><![CDATA[Juupajoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4250,7 +4250,7 @@
 		<Placemark>					
 			<name>Lappeenranta</name>				
 			<description><![CDATA[Lappeenranta Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4263,7 +4263,7 @@
 		<Placemark>					
 			<name>Järvenpää</name>				
 			<description><![CDATA[Järvenpää Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4276,7 +4276,7 @@
 		<Placemark>					
 			<name>Laukaa</name>				
 			<description><![CDATA[Laukaa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4289,7 +4289,7 @@
 		<Placemark>					
 			<name>Eura</name>				
 			<description><![CDATA[Eura Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4302,7 +4302,7 @@
 		<Placemark>					
 			<name>Keitele</name>				
 			<description><![CDATA[Keitele Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -4315,7 +4315,7 @@
 		<Placemark>					
 			<name>Inkoo</name>				
 			<description><![CDATA[Inkoo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -4986,7 +4986,7 @@
 		<Placemark>					
 			<name>Raasepori</name>				
 			<description><![CDATA[Raasepori Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -6337,7 +6337,7 @@
 		<Placemark>					
 			<name>Kangasala</name>				
 			<description><![CDATA[Kangasala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -6350,7 +6350,7 @@
 		<Placemark>					
 			<name>Hankasalmi</name>				
 			<description><![CDATA[Hankasalmi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -6363,7 +6363,7 @@
 		<Placemark>					
 			<name>Karkkila</name>				
 			<description><![CDATA[Karkkila Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -6376,7 +6376,7 @@
 		<Placemark>					
 			<name>Hamina</name>				
 			<description><![CDATA[Hamina Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -6991,7 +6991,7 @@
 		<Placemark>					
 			<name>Mynämäki</name>				
 			<description><![CDATA[Mynämäki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7004,7 +7004,7 @@
 		<Placemark>					
 			<name>Hailuoto</name>				
 			<description><![CDATA[Hailuoto Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7017,7 +7017,7 @@
 		<Placemark>					
 			<name>Lappajärvi</name>				
 			<description><![CDATA[Lappajärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7030,7 +7030,7 @@
 		<Placemark>					
 			<name>Posio</name>				
 			<description><![CDATA[Posio Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7043,7 +7043,7 @@
 		<Placemark>					
 			<name>Keuruu</name>				
 			<description><![CDATA[Keuruu Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7056,7 +7056,7 @@
 		<Placemark>					
 			<name>Askola</name>				
 			<description><![CDATA[Askola Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7069,7 +7069,7 @@
 		<Placemark>					
 			<name>Salo</name>				
 			<description><![CDATA[Salo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -7252,7 +7252,7 @@
 		<Placemark>					
 			<name>Pyhäntä</name>				
 			<description><![CDATA[Pyhäntä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7265,7 +7265,7 @@
 		<Placemark>					
 			<name>Koski Tl</name>				
 			<description><![CDATA[Koski Tl Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7278,7 +7278,7 @@
 		<Placemark>					
 			<name>Pelkosenniemi</name>				
 			<description><![CDATA[Pelkosenniemi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7291,7 +7291,7 @@
 		<Placemark>					
 			<name>Kemi</name>				
 			<description><![CDATA[Kemi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -7402,7 +7402,7 @@
 		<Placemark>					
 			<name>Nivala</name>				
 			<description><![CDATA[Nivala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7415,7 +7415,7 @@
 		<Placemark>					
 			<name>Pöytyä</name>				
 			<description><![CDATA[Pöytyä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7428,7 +7428,7 @@
 		<Placemark>					
 			<name>Uusikaarlepyy</name>				
 			<description><![CDATA[Uusikaarlepyy Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -7819,7 +7819,7 @@
 		<Placemark>					
 			<name>Kerava</name>				
 			<description><![CDATA[Kerava Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7832,7 +7832,7 @@
 		<Placemark>					
 			<name>Iisalmi</name>				
 			<description><![CDATA[Iisalmi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7845,7 +7845,7 @@
 		<Placemark>					
 			<name>Haapajärvi</name>				
 			<description><![CDATA[Haapajärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7858,7 +7858,7 @@
 		<Placemark>					
 			<name>Leppävirta</name>				
 			<description><![CDATA[Leppävirta Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7871,7 +7871,7 @@
 		<Placemark>					
 			<name>Hyvinkää</name>				
 			<description><![CDATA[Hyvinkää Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7884,7 +7884,7 @@
 		<Placemark>					
 			<name>Sastamala</name>				
 			<description><![CDATA[Sastamala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7897,7 +7897,7 @@
 		<Placemark>					
 			<name>Siikalatva</name>				
 			<description><![CDATA[Siikalatva Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7910,7 +7910,7 @@
 		<Placemark>					
 			<name>Iitti</name>				
 			<description><![CDATA[Iitti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7923,7 +7923,7 @@
 		<Placemark>					
 			<name>Ikaalinen</name>				
 			<description><![CDATA[Ikaalinen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7936,7 +7936,7 @@
 		<Placemark>					
 			<name>Merijärvi</name>				
 			<description><![CDATA[Merijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7949,7 +7949,7 @@
 		<Placemark>					
 			<name>Mikkeli</name>				
 			<description><![CDATA[Mikkeli Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7962,7 +7962,7 @@
 		<Placemark>					
 			<name>Pielavesi</name>				
 			<description><![CDATA[Pielavesi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -7975,7 +7975,7 @@
 		<Placemark>					
 			<name>Vaasa</name>				
 			<description><![CDATA[Vaasa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -8374,7 +8374,7 @@
 		<Placemark>					
 			<name>Alavieska</name>				
 			<description><![CDATA[Alavieska Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -8387,7 +8387,7 @@
 		<Placemark>					
 			<name>Pieksämäki</name>				
 			<description><![CDATA[Pieksämäki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -8400,7 +8400,7 @@
 		<Placemark>					
 			<name>Maarianhamina</name>				
 			<description><![CDATA[Maarianhamina Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -8431,7 +8431,7 @@
 		<Placemark>					
 			<name>Kuhmoinen</name>				
 			<description><![CDATA[Kuhmoinen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -8444,7 +8444,7 @@
 		<Placemark>					
 			<name>Kannonkoski</name>				
 			<description><![CDATA[Kannonkoski Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -8457,7 +8457,7 @@
 		<Placemark>					
 			<name>Pälkäne</name>				
 			<description><![CDATA[Pälkäne Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -8470,7 +8470,7 @@
 		<Placemark>					
 			<name>Kaskinen</name>				
 			<description><![CDATA[Kaskinen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -8501,7 +8501,7 @@
 		<Placemark>					
 			<name>Porvoo</name>				
 			<description><![CDATA[Porvoo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -9300,7 +9300,7 @@
 		<Placemark>					
 			<name>Lumijoki</name>				
 			<description><![CDATA[Lumijoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -9313,7 +9313,7 @@
 		<Placemark>					
 			<name>Simo</name>				
 			<description><![CDATA[Simo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -9408,7 +9408,7 @@
 		<Placemark>					
 			<name>Kumlinge</name>				
 			<description><![CDATA[Kumlinge Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -10479,7 +10479,7 @@
 		<Placemark>					
 			<name>Saltvik</name>				
 			<description><![CDATA[Saltvik Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -11006,7 +11006,7 @@
 		<Placemark>					
 			<name>Turku</name>				
 			<description><![CDATA[Turku Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -11117,7 +11117,7 @@
 		<Placemark>					
 			<name>Pertunmaa</name>				
 			<description><![CDATA[Pertunmaa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -11130,7 +11130,7 @@
 		<Placemark>					
 			<name>Kangasniemi</name>				
 			<description><![CDATA[Kangasniemi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -11143,7 +11143,7 @@
 		<Placemark>					
 			<name>Joutsa</name>				
 			<description><![CDATA[Joutsa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -11156,7 +11156,7 @@
 		<Placemark>					
 			<name>Kruunupyy</name>				
 			<description><![CDATA[Kruunupyy Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -11187,7 +11187,7 @@
 		<Placemark>					
 			<name>Kauhava</name>				
 			<description><![CDATA[Kauhava Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -11200,7 +11200,7 @@
 		<Placemark>					
 			<name>Ilmajoki</name>				
 			<description><![CDATA[Ilmajoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -11213,7 +11213,7 @@
 		<Placemark>					
 			<name>Kempele</name>				
 			<description><![CDATA[Kempele Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -11226,7 +11226,7 @@
 		<Placemark>					
 			<name>Miehikkälä</name>				
 			<description><![CDATA[Miehikkälä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -11239,7 +11239,7 @@
 		<Placemark>					
 			<name>Merikarvia</name>				
 			<description><![CDATA[Merikarvia Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -11526,7 +11526,7 @@
 		<Placemark>					
 			<name>Heinävesi</name>				
 			<description><![CDATA[Heinävesi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -11539,7 +11539,7 @@
 		<Placemark>					
 			<name>Rauma</name>				
 			<description><![CDATA[Rauma Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -11866,7 +11866,7 @@
 		<Placemark>					
 			<name>Föglö</name>				
 			<description><![CDATA[Föglö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -13041,7 +13041,7 @@
 		<Placemark>					
 			<name>Uurainen</name>				
 			<description><![CDATA[Uurainen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13054,7 +13054,7 @@
 		<Placemark>					
 			<name>Kaustinen</name>				
 			<description><![CDATA[Kaustinen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13067,7 +13067,7 @@
 		<Placemark>					
 			<name>Jyväskylä</name>				
 			<description><![CDATA[Jyväskylä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13080,7 +13080,7 @@
 		<Placemark>					
 			<name>Kyyjärvi</name>				
 			<description><![CDATA[Kyyjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13093,7 +13093,7 @@
 		<Placemark>					
 			<name>Janakkala</name>				
 			<description><![CDATA[Janakkala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13106,7 +13106,7 @@
 		<Placemark>					
 			<name>Salla</name>				
 			<description><![CDATA[Salla Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13119,7 +13119,7 @@
 		<Placemark>					
 			<name>Utajärvi</name>				
 			<description><![CDATA[Utajärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13132,7 +13132,7 @@
 		<Placemark>					
 			<name>Pyhäjoki</name>				
 			<description><![CDATA[Pyhäjoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -13155,7 +13155,7 @@
 		<Placemark>					
 			<name>Muhos</name>				
 			<description><![CDATA[Muhos Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13168,7 +13168,7 @@
 		<Placemark>					
 			<name>Tervola</name>				
 			<description><![CDATA[Tervola Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13181,7 +13181,7 @@
 		<Placemark>					
 			<name>Saarijärvi</name>				
 			<description><![CDATA[Saarijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13194,7 +13194,7 @@
 		<Placemark>					
 			<name>Sodankylä</name>				
 			<description><![CDATA[Sodankylä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13207,7 +13207,7 @@
 		<Placemark>					
 			<name>Loimaa</name>				
 			<description><![CDATA[Loimaa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13220,7 +13220,7 @@
 		<Placemark>					
 			<name>Hollola</name>				
 			<description><![CDATA[Hollola Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13233,7 +13233,7 @@
 		<Placemark>					
 			<name>Närpiö</name>				
 			<description><![CDATA[Närpiö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -13600,7 +13600,7 @@
 		<Placemark>					
 			<name>Taivassalo</name>				
 			<description><![CDATA[Taivassalo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -13823,7 +13823,7 @@
 		<Placemark>					
 			<name>Kittilä</name>				
 			<description><![CDATA[Kittilä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13836,7 +13836,7 @@
 		<Placemark>					
 			<name>Sievi</name>				
 			<description><![CDATA[Sievi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13849,7 +13849,7 @@
 		<Placemark>					
 			<name>Sonkajärvi</name>				
 			<description><![CDATA[Sonkajärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13862,7 +13862,7 @@
 		<Placemark>					
 			<name>Nurmijärvi</name>				
 			<description><![CDATA[Nurmijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13875,7 +13875,7 @@
 		<Placemark>					
 			<name>Lieksa</name>				
 			<description><![CDATA[Lieksa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13888,7 +13888,7 @@
 		<Placemark>					
 			<name>Lieto</name>				
 			<description><![CDATA[Lieto Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13901,7 +13901,7 @@
 		<Placemark>					
 			<name>Kärkölä</name>				
 			<description><![CDATA[Kärkölä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -13914,7 +13914,7 @@
 		<Placemark>					
 			<name>Kustavi</name>				
 			<description><![CDATA[Kustavi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -14545,7 +14545,7 @@
 		<Placemark>					
 			<name>Pietarsaari</name>				
 			<description><![CDATA[Pietarsaari Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -14608,7 +14608,7 @@
 		<Placemark>					
 			<name>Juuka</name>				
 			<description><![CDATA[Juuka Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -14621,7 +14621,7 @@
 		<Placemark>					
 			<name>Siuntio</name>				
 			<description><![CDATA[Siuntio Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -14660,7 +14660,7 @@
 		<Placemark>					
 			<name>Ylitornio</name>				
 			<description><![CDATA[Ylitornio Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -14673,7 +14673,7 @@
 		<Placemark>					
 			<name>Kokemäki</name>				
 			<description><![CDATA[Kokemäki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -14686,7 +14686,7 @@
 		<Placemark>					
 			<name>Nakkila</name>				
 			<description><![CDATA[Nakkila Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -14699,7 +14699,7 @@
 		<Placemark>					
 			<name>Joensuu</name>				
 			<description><![CDATA[Joensuu Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -14712,7 +14712,7 @@
 		<Placemark>					
 			<name>Siikajoki</name>				
 			<description><![CDATA[Siikajoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -14743,7 +14743,7 @@
 		<Placemark>					
 			<name>Uusikaupunki</name>				
 			<description><![CDATA[Uusikaupunki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -15774,7 +15774,7 @@
 		<Placemark>					
 			<name>Virrat</name>				
 			<description><![CDATA[Virrat Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15787,7 +15787,7 @@
 		<Placemark>					
 			<name>Savukoski</name>				
 			<description><![CDATA[Savukoski Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15800,7 +15800,7 @@
 		<Placemark>					
 			<name>Toholampi</name>				
 			<description><![CDATA[Toholampi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15813,7 +15813,7 @@
 		<Placemark>					
 			<name>Kuhmo</name>				
 			<description><![CDATA[Kuhmo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15826,7 +15826,7 @@
 		<Placemark>					
 			<name>Kuusamo</name>				
 			<description><![CDATA[Kuusamo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15839,7 +15839,7 @@
 		<Placemark>					
 			<name>Urjala</name>				
 			<description><![CDATA[Urjala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15852,7 +15852,7 @@
 		<Placemark>					
 			<name>Tammela</name>				
 			<description><![CDATA[Tammela Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15865,7 +15865,7 @@
 		<Placemark>					
 			<name>Parkano</name>				
 			<description><![CDATA[Parkano Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15878,7 +15878,7 @@
 		<Placemark>					
 			<name>Soini</name>				
 			<description><![CDATA[Soini Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -15891,7 +15891,7 @@
 		<Placemark>					
 			<name>Parainen</name>				
 			<description><![CDATA[Parainen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -22370,7 +22370,7 @@
 		<Placemark>					
 			<name>Kinnula</name>				
 			<description><![CDATA[Kinnula Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22383,7 +22383,7 @@
 		<Placemark>					
 			<name>Enonkoski</name>				
 			<description><![CDATA[Enonkoski Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22396,7 +22396,7 @@
 		<Placemark>					
 			<name>Sipoo</name>				
 			<description><![CDATA[Sipoo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -22651,7 +22651,7 @@
 		<Placemark>					
 			<name>Sauvo</name>				
 			<description><![CDATA[Sauvo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -22738,7 +22738,7 @@
 		<Placemark>					
 			<name>Myrskylä</name>				
 			<description><![CDATA[Myrskylä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22751,7 +22751,7 @@
 		<Placemark>					
 			<name>Laihia</name>				
 			<description><![CDATA[Laihia Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22764,7 +22764,7 @@
 		<Placemark>					
 			<name>Kolari</name>				
 			<description><![CDATA[Kolari Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22777,7 +22777,7 @@
 		<Placemark>					
 			<name>Finström</name>				
 			<description><![CDATA[Finström Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -22832,7 +22832,7 @@
 		<Placemark>					
 			<name>Outokumpu</name>				
 			<description><![CDATA[Outokumpu Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22845,7 +22845,7 @@
 		<Placemark>					
 			<name>Kuortane</name>				
 			<description><![CDATA[Kuortane Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22858,7 +22858,7 @@
 		<Placemark>					
 			<name>Inari</name>				
 			<description><![CDATA[Inari Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22871,7 +22871,7 @@
 		<Placemark>					
 			<name>Sund</name>				
 			<description><![CDATA[Sund Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -22966,7 +22966,7 @@
 		<Placemark>					
 			<name>Lemi</name>				
 			<description><![CDATA[Lemi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22979,7 +22979,7 @@
 		<Placemark>					
 			<name>Kuopio</name>				
 			<description><![CDATA[Kuopio Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -22992,7 +22992,7 @@
 		<Placemark>					
 			<name>Marttila</name>				
 			<description><![CDATA[Marttila Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23005,7 +23005,7 @@
 		<Placemark>					
 			<name>Jokioinen</name>				
 			<description><![CDATA[Jokioinen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23018,7 +23018,7 @@
 		<Placemark>					
 			<name>Taipalsaari</name>				
 			<description><![CDATA[Taipalsaari Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23031,7 +23031,7 @@
 		<Placemark>					
 			<name>Juva</name>				
 			<description><![CDATA[Juva Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23044,7 +23044,7 @@
 		<Placemark>					
 			<name>Vihti</name>				
 			<description><![CDATA[Vihti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23057,7 +23057,7 @@
 		<Placemark>					
 			<name>Nokia</name>				
 			<description><![CDATA[Nokia Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23070,7 +23070,7 @@
 		<Placemark>					
 			<name>Hirvensalmi</name>				
 			<description><![CDATA[Hirvensalmi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23083,7 +23083,7 @@
 		<Placemark>					
 			<name>Perho</name>				
 			<description><![CDATA[Perho Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23096,7 +23096,7 @@
 		<Placemark>					
 			<name>Kitee</name>				
 			<description><![CDATA[Kitee Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23109,7 +23109,7 @@
 		<Placemark>					
 			<name>Kiuruvesi</name>				
 			<description><![CDATA[Kiuruvesi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -23122,7 +23122,7 @@
 		<Placemark>					
 			<name>Maalahti</name>				
 			<description><![CDATA[Maalahti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -24081,7 +24081,7 @@
 		<Placemark>					
 			<name>Kärsämäki</name>				
 			<description><![CDATA[Kärsämäki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24094,7 +24094,7 @@
 		<Placemark>					
 			<name>Puolanka</name>				
 			<description><![CDATA[Puolanka Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24107,7 +24107,7 @@
 		<Placemark>					
 			<name>Siilinjärvi</name>				
 			<description><![CDATA[Siilinjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24120,7 +24120,7 @@
 		<Placemark>					
 			<name>Pello</name>				
 			<description><![CDATA[Pello Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24133,7 +24133,7 @@
 		<Placemark>					
 			<name>Siikainen</name>				
 			<description><![CDATA[Siikainen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24146,7 +24146,7 @@
 		<Placemark>					
 			<name>Parikkala</name>				
 			<description><![CDATA[Parikkala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24159,7 +24159,7 @@
 		<Placemark>					
 			<name>Petäjävesi</name>				
 			<description><![CDATA[Petäjävesi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24172,7 +24172,7 @@
 		<Placemark>					
 			<name>Alavus</name>				
 			<description><![CDATA[Alavus Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24185,7 +24185,7 @@
 		<Placemark>					
 			<name>Oulainen</name>				
 			<description><![CDATA[Oulainen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24198,7 +24198,7 @@
 		<Placemark>					
 			<name>Vesilahti</name>				
 			<description><![CDATA[Vesilahti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24211,7 +24211,7 @@
 		<Placemark>					
 			<name>Rantasalmi</name>				
 			<description><![CDATA[Rantasalmi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24224,7 +24224,7 @@
 		<Placemark>					
 			<name>Kivijärvi</name>				
 			<description><![CDATA[Kivijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -24237,7 +24237,7 @@
 		<Placemark>					
 			<name>Kemiönsaari</name>				
 			<description><![CDATA[Kemiönsaari Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -26764,7 +26764,7 @@
 		<Placemark>					
 			<name>Imatra</name>				
 			<description><![CDATA[Imatra Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -26777,7 +26777,7 @@
 		<Placemark>					
 			<name>Karstula</name>				
 			<description><![CDATA[Karstula Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -26790,7 +26790,7 @@
 		<Placemark>					
 			<name>Lapinjärvi</name>				
 			<description><![CDATA[Lapinjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -26803,7 +26803,7 @@
 		<Placemark>					
 			<name>Äänekoski</name>				
 			<description><![CDATA[Äänekoski Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -26816,7 +26816,7 @@
 		<Placemark>					
 			<name>Alajärvi</name>				
 			<description><![CDATA[Alajärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -26829,7 +26829,7 @@
 		<Placemark>					
 			<name>Savitaipale</name>				
 			<description><![CDATA[Savitaipale Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -26842,7 +26842,7 @@
 		<Placemark>					
 			<name>Mustasaari</name>				
 			<description><![CDATA[Mustasaari Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -27985,7 +27985,7 @@
 		<Placemark>					
 			<name>Hammarland</name>				
 			<description><![CDATA[Hammarland Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -28456,7 +28456,7 @@
 		<Placemark>					
 			<name>Muurame</name>				
 			<description><![CDATA[Muurame Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28469,7 +28469,7 @@
 		<Placemark>					
 			<name>Isojoki</name>				
 			<description><![CDATA[Isojoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28482,7 +28482,7 @@
 		<Placemark>					
 			<name>Orimattila</name>				
 			<description><![CDATA[Orimattila Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28495,7 +28495,7 @@
 		<Placemark>					
 			<name>Joroinen</name>				
 			<description><![CDATA[Joroinen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28508,7 +28508,7 @@
 		<Placemark>					
 			<name>Kankaanpää</name>				
 			<description><![CDATA[Kankaanpää Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28521,7 +28521,7 @@
 		<Placemark>					
 			<name>Varkaus</name>				
 			<description><![CDATA[Varkaus Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28534,7 +28534,7 @@
 		<Placemark>					
 			<name>Vehmaa</name>				
 			<description><![CDATA[Vehmaa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -28557,7 +28557,7 @@
 		<Placemark>					
 			<name>Mäntyharju</name>				
 			<description><![CDATA[Mäntyharju Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28570,7 +28570,7 @@
 		<Placemark>					
 			<name>Veteli</name>				
 			<description><![CDATA[Veteli Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28583,7 +28583,7 @@
 		<Placemark>					
 			<name>Suomussalmi</name>				
 			<description><![CDATA[Suomussalmi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28596,7 +28596,7 @@
 		<Placemark>					
 			<name>Rautalampi</name>				
 			<description><![CDATA[Rautalampi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -28609,7 +28609,7 @@
 		<Placemark>					
 			<name>Helsinki</name>				
 			<description><![CDATA[Helsinki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -29024,7 +29024,7 @@
 		<Placemark>					
 			<name>Kemijärvi</name>				
 			<description><![CDATA[Kemijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29037,7 +29037,7 @@
 		<Placemark>					
 			<name>Forssa</name>				
 			<description><![CDATA[Forssa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29050,7 +29050,7 @@
 		<Placemark>					
 			<name>Kotka</name>				
 			<description><![CDATA[Kotka Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -29633,7 +29633,7 @@
 		<Placemark>					
 			<name>Pirkkala</name>				
 			<description><![CDATA[Pirkkala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29646,7 +29646,7 @@
 		<Placemark>					
 			<name>Asikkala</name>				
 			<description><![CDATA[Asikkala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29659,7 +29659,7 @@
 		<Placemark>					
 			<name>Vaala</name>				
 			<description><![CDATA[Vaala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29672,7 +29672,7 @@
 		<Placemark>					
 			<name>Kaavi</name>				
 			<description><![CDATA[Kaavi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29685,7 +29685,7 @@
 		<Placemark>					
 			<name>Kauhajoki</name>				
 			<description><![CDATA[Kauhajoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29698,7 +29698,7 @@
 		<Placemark>					
 			<name>Aura</name>				
 			<description><![CDATA[Aura Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29711,7 +29711,7 @@
 		<Placemark>					
 			<name>Suonenjoki</name>				
 			<description><![CDATA[Suonenjoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29724,7 +29724,7 @@
 		<Placemark>					
 			<name>Huittinen</name>				
 			<description><![CDATA[Huittinen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29737,7 +29737,7 @@
 		<Placemark>					
 			<name>Hausjärvi</name>				
 			<description><![CDATA[Hausjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29750,7 +29750,7 @@
 		<Placemark>					
 			<name>Seinäjoki</name>				
 			<description><![CDATA[Seinäjoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29763,7 +29763,7 @@
 		<Placemark>					
 			<name>Ruokolahti</name>				
 			<description><![CDATA[Ruokolahti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -29776,7 +29776,7 @@
 		<Placemark>					
 			<name>Oulu</name>				
 			<description><![CDATA[Oulu Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -29871,7 +29871,7 @@
 		<Placemark>					
 			<name>Korsnäs</name>				
 			<description><![CDATA[Korsnäs Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -30118,7 +30118,7 @@
 		<Placemark>					
 			<name>Evijärvi</name>				
 			<description><![CDATA[Evijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30131,7 +30131,7 @@
 		<Placemark>					
 			<name>Reisjärvi</name>				
 			<description><![CDATA[Reisjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30144,7 +30144,7 @@
 		<Placemark>					
 			<name>Tornio</name>				
 			<description><![CDATA[Tornio Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -30239,7 +30239,7 @@
 		<Placemark>					
 			<name>Halsua</name>				
 			<description><![CDATA[Halsua Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30252,7 +30252,7 @@
 		<Placemark>					
 			<name>Pudasjärvi</name>				
 			<description><![CDATA[Pudasjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30265,7 +30265,7 @@
 		<Placemark>					
 			<name>Sulkava</name>				
 			<description><![CDATA[Sulkava Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30278,7 +30278,7 @@
 		<Placemark>					
 			<name>Lempäälä</name>				
 			<description><![CDATA[Lempäälä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30291,7 +30291,7 @@
 		<Placemark>					
 			<name>Ranua</name>				
 			<description><![CDATA[Ranua Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30304,7 +30304,7 @@
 		<Placemark>					
 			<name>Virolahti</name>				
 			<description><![CDATA[Virolahti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -30583,7 +30583,7 @@
 		<Placemark>					
 			<name>Lestijärvi</name>				
 			<description><![CDATA[Lestijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30596,7 +30596,7 @@
 		<Placemark>					
 			<name>Lapinlahti</name>				
 			<description><![CDATA[Lapinlahti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30609,7 +30609,7 @@
 		<Placemark>					
 			<name>Ruovesi</name>				
 			<description><![CDATA[Ruovesi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30622,7 +30622,7 @@
 		<Placemark>					
 			<name>Haapavesi</name>				
 			<description><![CDATA[Haapavesi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30635,7 +30635,7 @@
 		<Placemark>					
 			<name>Nurmes</name>				
 			<description><![CDATA[Nurmes Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30648,7 +30648,7 @@
 		<Placemark>					
 			<name>Vimpeli</name>				
 			<description><![CDATA[Vimpeli Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30661,7 +30661,7 @@
 		<Placemark>					
 			<name>Mäntsälä</name>				
 			<description><![CDATA[Mäntsälä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30674,7 +30674,7 @@
 		<Placemark>					
 			<name>Padasjoki</name>				
 			<description><![CDATA[Padasjoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30687,7 +30687,7 @@
 		<Placemark>					
 			<name>Kalajoki</name>				
 			<description><![CDATA[Kalajoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -30870,7 +30870,7 @@
 		<Placemark>					
 			<name>Savonlinna</name>				
 			<description><![CDATA[Savonlinna Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30883,7 +30883,7 @@
 		<Placemark>					
 			<name>Isokyrö</name>				
 			<description><![CDATA[Isokyrö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30896,7 +30896,7 @@
 		<Placemark>					
 			<name>Kurikka</name>				
 			<description><![CDATA[Kurikka Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30909,7 +30909,7 @@
 		<Placemark>					
 			<name>Orivesi</name>				
 			<description><![CDATA[Orivesi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30922,7 +30922,7 @@
 		<Placemark>					
 			<name>Kihniö</name>				
 			<description><![CDATA[Kihniö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -30935,7 +30935,7 @@
 		<Placemark>					
 			<name>Luoto</name>				
 			<description><![CDATA[Luoto Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -31350,7 +31350,7 @@
 		<Placemark>					
 			<name>Ähtäri</name>				
 			<description><![CDATA[Ähtäri Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -31363,7 +31363,7 @@
 		<Placemark>					
 			<name>Luumäki</name>				
 			<description><![CDATA[Luumäki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -31376,7 +31376,7 @@
 		<Placemark>					
 			<name>Tampere</name>				
 			<description><![CDATA[Tampere Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -31389,7 +31389,7 @@
 		<Placemark>					
 			<name>Jomala</name>				
 			<description><![CDATA[Jomala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -31556,7 +31556,7 @@
 		<Placemark>					
 			<name>Brändö</name>				
 			<description><![CDATA[Brändö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -33179,7 +33179,7 @@
 		<Placemark>					
 			<name>Säkylä</name>				
 			<description><![CDATA[Säkylä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33192,7 +33192,7 @@
 		<Placemark>					
 			<name>Valkeakoski</name>				
 			<description><![CDATA[Valkeakoski Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33205,7 +33205,7 @@
 		<Placemark>					
 			<name>Pukkila</name>				
 			<description><![CDATA[Pukkila Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33218,7 +33218,7 @@
 		<Placemark>					
 			<name>Ylivieska</name>				
 			<description><![CDATA[Ylivieska Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33231,7 +33231,7 @@
 		<Placemark>					
 			<name>Liperi</name>				
 			<description><![CDATA[Liperi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33244,7 +33244,7 @@
 		<Placemark>					
 			<name>Eckerö</name>				
 			<description><![CDATA[Eckerö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -33555,7 +33555,7 @@
 		<Placemark>					
 			<name>Puumala</name>				
 			<description><![CDATA[Puumala Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33568,7 +33568,7 @@
 		<Placemark>					
 			<name>Lahti</name>				
 			<description><![CDATA[Lahti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33581,7 +33581,7 @@
 		<Placemark>					
 			<name>Ypäjä</name>				
 			<description><![CDATA[Ypäjä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33594,7 +33594,7 @@
 		<Placemark>					
 			<name>Honkajoki</name>				
 			<description><![CDATA[Honkajoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33607,7 +33607,7 @@
 		<Placemark>					
 			<name>Kajaani</name>				
 			<description><![CDATA[Kajaani Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33620,7 +33620,7 @@
 		<Placemark>					
 			<name>Ii</name>				
 			<description><![CDATA[Ii Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -33723,7 +33723,7 @@
 		<Placemark>					
 			<name>Ilomantsi</name>				
 			<description><![CDATA[Ilomantsi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33736,7 +33736,7 @@
 		<Placemark>					
 			<name>Jämijärvi</name>				
 			<description><![CDATA[Jämijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -33749,7 +33749,7 @@
 		<Placemark>					
 			<name>Sottunga</name>				
 			<description><![CDATA[Sottunga Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -34356,7 +34356,7 @@
 		<Placemark>					
 			<name>Masku</name>				
 			<description><![CDATA[Masku Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -34443,7 +34443,7 @@
 		<Placemark>					
 			<name>Enontekiö</name>				
 			<description><![CDATA[Enontekiö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -34456,7 +34456,7 @@
 		<Placemark>					
 			<name>Raahe</name>				
 			<description><![CDATA[Raahe Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -34503,7 +34503,7 @@
 		<Placemark>					
 			<name>Loviisa</name>				
 			<description><![CDATA[Loviisa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -35318,7 +35318,7 @@
 		<Placemark>					
 			<name>Akaa</name>				
 			<description><![CDATA[Akaa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35331,7 +35331,7 @@
 		<Placemark>					
 			<name>Hyrynsalmi</name>				
 			<description><![CDATA[Hyrynsalmi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35344,7 +35344,7 @@
 		<Placemark>					
 			<name>Laitila</name>				
 			<description><![CDATA[Laitila Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35357,7 +35357,7 @@
 		<Placemark>					
 			<name>Rautjärvi</name>				
 			<description><![CDATA[Rautjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35370,7 +35370,7 @@
 		<Placemark>					
 			<name>Kauniainen</name>				
 			<description><![CDATA[Kauniainen Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35383,7 +35383,7 @@
 		<Placemark>					
 			<name>Hattula</name>				
 			<description><![CDATA[Hattula Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35396,7 +35396,7 @@
 		<Placemark>					
 			<name>Karijoki</name>				
 			<description><![CDATA[Karijoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35409,7 +35409,7 @@
 		<Placemark>					
 			<name>Mänttä-Vilppula</name>				
 			<description><![CDATA[Mänttä-Vilppula Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35422,7 +35422,7 @@
 		<Placemark>					
 			<name>Somero</name>				
 			<description><![CDATA[Somero Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35435,7 +35435,7 @@
 		<Placemark>					
 			<name>Liminka</name>				
 			<description><![CDATA[Liminka Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35448,7 +35448,7 @@
 		<Placemark>					
 			<name>Ylöjärvi</name>				
 			<description><![CDATA[Ylöjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35461,7 +35461,7 @@
 		<Placemark>					
 			<name>Vöyri</name>				
 			<description><![CDATA[Vöyri Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -35932,7 +35932,7 @@
 		<Placemark>					
 			<name>Tervo</name>				
 			<description><![CDATA[Tervo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35945,7 +35945,7 @@
 		<Placemark>					
 			<name>Kannus</name>				
 			<description><![CDATA[Kannus Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35958,7 +35958,7 @@
 		<Placemark>					
 			<name>Polvijärvi</name>				
 			<description><![CDATA[Polvijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35971,7 +35971,7 @@
 		<Placemark>					
 			<name>Teuva</name>				
 			<description><![CDATA[Teuva Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35984,7 +35984,7 @@
 		<Placemark>					
 			<name>Utsjoki</name>				
 			<description><![CDATA[Utsjoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -35997,7 +35997,7 @@
 		<Placemark>					
 			<name>Rautavaara</name>				
 			<description><![CDATA[Rautavaara Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36010,7 +36010,7 @@
 		<Placemark>					
 			<name>Pyhtää</name>				
 			<description><![CDATA[Pyhtää Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -36305,7 +36305,7 @@
 		<Placemark>					
 			<name>Hämeenlinna</name>				
 			<description><![CDATA[Hämeenlinna Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36318,7 +36318,7 @@
 		<Placemark>					
 			<name>Pyhäjärvi</name>				
 			<description><![CDATA[Pyhäjärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36331,7 +36331,7 @@
 		<Placemark>					
 			<name>Kaarina</name>				
 			<description><![CDATA[Kaarina Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -36394,7 +36394,7 @@
 		<Placemark>					
 			<name>Pyhäranta</name>				
 			<description><![CDATA[Pyhäranta Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -36481,7 +36481,7 @@
 		<Placemark>					
 			<name>Raisio</name>				
 			<description><![CDATA[Raisio Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36494,7 +36494,7 @@
 		<Placemark>					
 			<name>Eurajoki</name>				
 			<description><![CDATA[Eurajoki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -36917,7 +36917,7 @@
 		<Placemark>					
 			<name>Hämeenkyrö</name>				
 			<description><![CDATA[Hämeenkyrö Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36930,7 +36930,7 @@
 		<Placemark>					
 			<name>Tyrnävä</name>				
 			<description><![CDATA[Tyrnävä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36943,7 +36943,7 @@
 		<Placemark>					
 			<name>Pihtipudas</name>				
 			<description><![CDATA[Pihtipudas Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36956,7 +36956,7 @@
 		<Placemark>					
 			<name>Luhanka</name>				
 			<description><![CDATA[Luhanka Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36969,7 +36969,7 @@
 		<Placemark>					
 			<name>Riihimäki</name>				
 			<description><![CDATA[Riihimäki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36982,7 +36982,7 @@
 		<Placemark>					
 			<name>Vesanto</name>				
 			<description><![CDATA[Vesanto Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -36995,7 +36995,7 @@
 		<Placemark>					
 			<name>Ulvila</name>				
 			<description><![CDATA[Ulvila Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37008,7 +37008,7 @@
 		<Placemark>					
 			<name>Toivakka</name>				
 			<description><![CDATA[Toivakka Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37021,7 +37021,7 @@
 		<Placemark>					
 			<name>Loppi</name>				
 			<description><![CDATA[Loppi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37034,7 +37034,7 @@
 		<Placemark>					
 			<name>Pori</name>				
 			<description><![CDATA[Pori Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -37561,7 +37561,7 @@
 		<Placemark>					
 			<name>Sotkamo</name>				
 			<description><![CDATA[Sotkamo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37574,7 +37574,7 @@
 		<Placemark>					
 			<name>Humppila</name>				
 			<description><![CDATA[Humppila Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37587,7 +37587,7 @@
 		<Placemark>					
 			<name>Taivalkoski</name>				
 			<description><![CDATA[Taivalkoski Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37600,7 +37600,7 @@
 		<Placemark>					
 			<name>Rusko</name>				
 			<description><![CDATA[Rusko Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37613,7 +37613,7 @@
 		<Placemark>					
 			<name>Pedersören kunta</name>				
 			<description><![CDATA[Pedersören kunta Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -37692,7 +37692,7 @@
 		<Placemark>					
 			<name>Konnevesi</name>				
 			<description><![CDATA[Konnevesi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37705,7 +37705,7 @@
 		<Placemark>					
 			<name>Kontiolahti</name>				
 			<description><![CDATA[Kontiolahti Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37718,7 +37718,7 @@
 		<Placemark>					
 			<name>Keminmaa</name>				
 			<description><![CDATA[Keminmaa Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -37731,7 +37731,7 @@
 		<Placemark>					
 			<name>Kirkkonummi</name>				
 			<description><![CDATA[Kirkkonummi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -38202,7 +38202,7 @@
 		<Placemark>					
 			<name>Paltamo</name>				
 			<description><![CDATA[Paltamo Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -38215,7 +38215,7 @@
 		<Placemark>					
 			<name>Sysmä</name>				
 			<description><![CDATA[Sysmä Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -38228,7 +38228,7 @@
 		<Placemark>					
 			<name>Tohmajärvi</name>				
 			<description><![CDATA[Tohmajärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -38241,7 +38241,7 @@
 		<Placemark>					
 			<name>Ristijärvi</name>				
 			<description><![CDATA[Ristijärvi Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -38254,7 +38254,7 @@
 		<Placemark>					
 			<name>Multia</name>				
 			<description><![CDATA[Multia Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -38267,7 +38267,7 @@
 		<Placemark>					
 			<name>Lohja</name>				
 			<description><![CDATA[Lohja Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -38280,7 +38280,7 @@
 		<Placemark>					
 			<name>Paimio</name>				
 			<description><![CDATA[Paimio Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -38293,7 +38293,7 @@
 		<Placemark>					
 			<name>Kökar</name>				
 			<description><![CDATA[Kökar Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -39532,7 +39532,7 @@
 		<Placemark>					
 			<name>Heinola</name>				
 			<description><![CDATA[Heinola Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -39545,7 +39545,7 @@
 		<Placemark>					
 			<name>Kristiinankaupunki</name>				
 			<description><![CDATA[Kristiinankaupunki Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<MultiGeometry>				
 				<Polygon>			
 					<outerBoundaryIs>		
@@ -39784,7 +39784,7 @@
 		<Placemark>					
 			<name>Muonio</name>				
 			<description><![CDATA[Muonio Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -39797,7 +39797,7 @@
 		<Placemark>					
 			<name>Lapua</name>				
 			<description><![CDATA[Lapua Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
@@ -39810,7 +39810,7 @@
 		<Placemark>					
 			<name>Karvia</name>				
 			<description><![CDATA[Karvia Yht. 0 //]]></description>				
-			<styleUrl>#poly-A52714-6001-158</styleUrl>				
+			<styleUrl>#poly-000000-1200-77</styleUrl>				
 			<Polygon>				
 				<outerBoundaryIs>			
 					<LinearRing>		
