@@ -2,101 +2,69 @@
 <kml xmlns='http://www.opengis.net/kml/2.2'>							
 	<Document>						
 		<name>Kuntarajat</name>					
-		<Style id="poly-000000-1200-77-normal">
-			<LineStyle>
-				<color>ff000000</color>
-				<width>0.5</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
+		<Style id="poly-00D079-1000-5-normal">
+		  <LineStyle>
+			<color>ff79d000</color>
+			<width>1</width>
+		  </LineStyle>
+		  <PolyStyle>
+			<color>0579d000</color>
+			<fill>1</fill>
+			<outline>1</outline>
+		  </PolyStyle>
 		</Style>
-		<Style id="poly-000000-1200-77-highlight">
-			<LineStyle>
-				<color>ff000000</color>
-				<width>0.5</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>4d000000</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
+		<Style id="poly-00D079-1000-5-highlight">
+		  <LineStyle>
+			<color>ff79d000</color>
+			<width>1.5</width>
+		  </LineStyle>
+		  <PolyStyle>
+			<color>0579d000</color>
+			<fill>1</fill>
+			<outline>1</outline>
+		  </PolyStyle>
 		</Style>
-		<StyleMap id="poly-000000-1200-77">
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#poly-000000-1200-77-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#poly-000000-1200-77-highlight</styleUrl>
-			</Pair>
+		<StyleMap id="poly-00D079-1000-5">
+		  <Pair>
+			<key>normal</key>
+			<styleUrl>#poly-00D079-1000-5-normal</styleUrl>
+		  </Pair>
+		  <Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-00D079-1000-5-highlight</styleUrl>
+		  </Pair>
 		</StyleMap>
-		<Style id="poly-097138-5001-156-normal">
-			<LineStyle>
-				<color>ff387109</color>
-				<width>2.500</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>9c387109</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
+		<Style id="poly-DB4436-1000-64-normal">
+		  <LineStyle>
+			<color>ff3644db</color>
+			<width>1</width>
+		  </LineStyle>
+		  <PolyStyle>
+			<color>403644db</color>
+			<fill>1</fill>
+			<outline>1</outline>
+		  </PolyStyle>
 		</Style>
-		<Style id="poly-097138-5001-156-highlight">
-			<LineStyle>
-				<color>ff387109</color>
-				<width>2.500</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>9c387109</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
+		<Style id="poly-DB4436-1000-64-highlight">
+		  <LineStyle>
+			<color>ff3644db</color>
+			<width>1.5</width>
+		  </LineStyle>
+		  <PolyStyle>
+			<color>403644db</color>
+			<fill>1</fill>
+			<outline>1</outline>
+		  </PolyStyle>
 		</Style>
-		<StyleMap id="poly-097138-5001-156">
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#poly-097138-5001-156-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#poly-097138-5001-156-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id="poly-A52714-6001-158-normal">
-			<LineStyle>
-				<color>ff1427a5</color>
-				<width>2.500</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>9e1427a5</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-		</Style>
-		<Style id="poly-A52714-6001-158-highlight">
-			<LineStyle>
-				<color>ff1427a5</color>
-				<width>2.500</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>9e1427a5</color>
-				<fill>1</fill>
-				<outline>1</outline>
-			</PolyStyle>
-		</Style>
-		<StyleMap id="poly-A52714-6001-158">
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#poly-A52714-6001-158-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#poly-A52714-6001-158-highlight</styleUrl>
-			</Pair>
+		<StyleMap id="poly-DB4436-1000-64">
+		  <Pair>
+			<key>normal</key>
+			<styleUrl>#poly-DB4436-1000-64-normal</styleUrl>
+		  </Pair>
+		  <Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-DB4436-1000-64-highlight</styleUrl>
+		  </Pair>
 		</StyleMap>
 		<Placemark>					
 			<name>Nousiainen</name>				
