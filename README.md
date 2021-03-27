@@ -6,7 +6,8 @@ Suomen kuntarajat Geocaching kml map
 <b>[>>>Esimerkkikartta<<<](https://drive.google.com/open?id=114VJTemi07NH27FAre7fAtSISjk&usp=sharing)</b>
 
 [Juttu työkalusta weellun 61° 23° Tampere -blogissa](https://www.6123tampere.com/2016/08/15/tyokalu-kuntakartan-varittamiseen/)
--Excel&Python työkalut vanhentuneet geocache.fi:n uudistusten myötä. Userscript päivitetty ja toimii (versio 2.0) 09/2019.
+-Excel&Python työkalut vanhentuneet geocache.fi:n uudistusten myötä. 
+Userscript päivitetty ja toimii (versio 3.0) 03/2021.
 
 Perustuu Maanmittauslaitoksen aineistoon.
 
