@@ -210,16 +210,19 @@ function luokml() {
     var stats = [];
     var findcount = 0;
     var yhtcolumn = 0;
-    var i, ii, otsikot;
+    var i, ii, otsikot, url;
 
     var jakaumataulukko = document.querySelector('table[class="border sortable"]');
     if (jakaumataulukko) {
-        var tr = jakaumataulukko.querySelectorAll("tr");
+      console.log("Löytötaulukko paikkakunnittain löydetty");
+      
+      var tr = jakaumataulukko.querySelectorAll("tr");
         //console.log(tr.length-1 + " kuntaa");
         for (i = 0; i < tr.length; i++) {
             if (tr[i].querySelector("th")) { //OTSIKKORIVI
                 if (typeof otsikot === 'undefined') {
                     otsikot = [];
+                    otsikot.push("URL");
                     var th = tr[i].querySelectorAll("th");
                     for (ii = 0; ii < th.length; ii++) {
                         if (th[ii].querySelector("b")) { //jos boldattu
@@ -239,16 +242,31 @@ function luokml() {
                     }
                 }
             }else{ //KUNTARIVI
+                
                 stats = [];
                 var td = tr[i].querySelectorAll("td");
+                //console.log(td.innerHTML);  
+              	
                 for (ii = 0; ii < td.length; ii++) {
-                    stats.push(td[ii].textContent);
-                    //console.log(td[ii].textContent); //Solusisällön tulostus
+                  if (ii == 0){
+                    var linkki = td[ii].querySelector('a');
+                    if (linkki !== null) {
+                      //console.log("Linkki löytyy");                      
+                      url =  "(https://www.geocache.fi" + linkki.getAttribute('href') + ")";
+                      stats.push(url);
+                    };
+                  };
+                    
+                  stats.push(td[ii].textContent);
+                  //console.log(td[ii].textContent); //Solusisällön tulostus
                 }
                 data.push(stats); //Kuntadatat talteen
             }
         }
-        //Jakaumataulukko käsitelty
+        
+      	console.log("Löytötaulukko paikkakunnittain luettu");
+      
+      //Jakaumataulukko käsitelty
         var re;
         var regex;
         var oldkmlstr;
@@ -257,13 +275,15 @@ function luokml() {
         var COLOR;
         var kunta;
 
-        for (i = 0; i < data.length; i++) {
-            kunta = data[i][0];
-            CDATA = kunta + " Yht. " + data[i][yhtcolumn] + " //";
+			  for (i = 0; i < data.length - 1; i++) {
+            url = data[i][0];
+            kunta = data[i][1];
+            console.log(i + ": " + kunta);
+            CDATA = kunta + " " + url + " Yht. " + data[i][yhtcolumn] + " //";
             if (data[i][yhtcolumn] != "0" && data[i][yhtcolumn] != "0%") {//Kunnasta on löytynyt vähintään yksi kätkö
                 COLOR = "#poly-00D079-1000-5"; //vihreä
                 findcount = findcount + 1;
-                for (ii = 1; ii < yhtcolumn; ii++) {
+                for (ii = 2; ii < yhtcolumn; ii++) {
                     if (data[i][ii] != "0" && data[i][ii] != "0%") {//append kätkötyypeittäin
                         CDATA = CDATA + " " + otsikot[ii] + " " + data[i][ii] + " /";
                     }
@@ -279,20 +299,19 @@ function luokml() {
             newkmlstr = oldkmlstr.replace("CDATA[]", "CDATA[" + CDATA + "]").replace("<styleUrl>", "<styleUrl>" + COLOR);
             kml = kml.replace(oldkmlstr, newkmlstr);
 
-            if (kunta === "Oulu"){
-                console.log("oldkmlstr: " + oldkmlstr);
-                console.log("newkmlstr: " + newkmlstr);
-                console.log("result: " + kml.match(regex)[0]);
-            }
         }
         var pvm = new Date().toJSON().slice(0,10).split('-').reverse().join('.');
-        console.log(pvm);
         kml = kml.replace("<name>Kuntarajat</name>","<name>Kuntakartta " + pvm + "</name>");
-        //EXPORT KUNTAKARTTA.KML
+      
+      	console.log("Kml käsitelty");
+      
+      //EXPORT KUNTAKARTTA.KML
         var blob = new Blob([kml], {
             type: "text/plain;charset=utf-8"
         });
         saveAs(blob, "Kuntakartta.kml");
+        
+      	console.log("Kml tallennettu");
 
     }else{
         alert("Geocache.fi -sivu on muuttunut, scripti ei löytänyt jakaumataulukkoa.");
